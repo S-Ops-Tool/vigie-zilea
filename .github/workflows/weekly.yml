@@ -92,12 +92,12 @@ jobs:
           path: out/
           retention-days: 90
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
         id: pages
         if: steps.rendu.conclusion == 'success' && vars.PUBLISH_PAGES == '1'
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         if: steps.rendu.conclusion == 'success' && vars.PUBLISH_PAGES == '1'
         with:
           path: out/
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5
         if: steps.rendu.conclusion == 'success' && vars.PUBLISH_PAGES == '1' 

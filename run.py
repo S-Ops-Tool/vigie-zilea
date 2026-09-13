@@ -85,12 +85,19 @@ def run(cadence, dry_run=False):
 
     # tout ce qui entre au corpus n'a pas vocation a partir dans l'envoi :
     # les videos alimentent le radar, pas la revue de presse
-    retenus, secteur, ecartes = editorial.eligible(fresh)
+    #
+    # La revue se compose sur la fenetre editoriale du corpus, moins ce qui est
+    # deja parti. Elle ne se composait auparavant que des items decouverts par
+    # CE run : une seconde execution dans la semaine ne trouvait plus rien et
+    # tombait sous le plancher, et une semaine manquee n'etait jamais rattrapee.
+    envoyes = set(store.load_state().get("digested", []))
+    candidats = [it for it in store.read_corpus() if it["uri"] not in envoyes]
+    retenus, secteur, ecartes = editorial.eligible(candidats)
     avant = len(retenus) + len(secteur)
     retenus, secteur = editorial.dedupe(retenus), editorial.dedupe(secteur)
     if avant != len(retenus) + len(secteur):
         print(f"\u2192 doublons : {avant - len(retenus) - len(secteur)} reprises fusionn\u00e9es")
-    print(f"→ éligibles : {len(retenus)} sur {len(fresh)} "
+    print(f"→ éligibles : {len(retenus)} sur {len(candidats)} jamais envoyés "
           f"(hors type {ecartes['hors_type']} · hors fenêtre {ecartes['hors_fenetre']} · "
           f"hors sujet {ecartes['hors_sujet']})")
 
@@ -126,9 +133,11 @@ def run(cadence, dry_run=False):
         os.replace(OUT_DIR / "digest.html", OUT_DIR / "digest_president.html")
         os.replace(OUT_DIR / "digest.txt", OUT_DIR / "digest_president.txt")
         print(f"→ envoi président : {len(buckets['president'])} item(s)")
+        _marquer(buckets["president"])
 
     if editorial.should_send(len(buckets["members"])):
         digest.render(buckets["members"], hs, week_label(), sector=secteur)
+        _marquer(buckets["members"] + secteur)
         print(f"→ digest généré : {OUT_DIR/'digest.html'}")
     else:
         print(f"→ plancher non atteint ({len(buckets['members'])} items) : pas d'envoi cette semaine")
@@ -143,6 +152,19 @@ def run(cadence, dry_run=False):
     return 0
 
 
+def _marquer(items):
+    """Retient ce qui est deja parti dans une revue.
+
+    L'etat est relu juste avant d'etre reecrit : la resolution des liens Google
+    News ecrit dans le meme fichier, et une copie chargee plus tot ecraserait
+    son cache.
+    """
+    st = store.load_state()
+    st["digested"] = sorted(set(st.get("digested", []))
+                            | {it["uri"] for it in items})
+    store.save_state(st)
+
+
 def send():
     """Envoi reel ou simule. Le preflight DNS decide."""
     from core import delivery
@@ -155,7 +177,10 @@ def send():
         return 1
     html_p, txt_p = OUT_DIR / "digest.html", OUT_DIR / "digest.txt"
     if not html_p.exists():
-        print("→ aucun digest généré (plancher non atteint ?)"); return 1
+        # Pas d'erreur : une semaine sans matiere est un resultat, pas une panne.
+        # Rendre la main avec 1 faisait echouer le run et sautait la publication.
+        print("→ rien à envoyer : pas de revue produite (plancher non atteint)")
+        return 0
     rec_file = CLIENT["digest"]["recipients_file"]
     rec = []
     if os.path.exists(rec_file):
