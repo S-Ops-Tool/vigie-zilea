@@ -243,6 +243,16 @@ def render():
     return out
 
 
+def _nb_sources():
+    """Le nombre annonce doit venir de la configuration, jamais d'une constante
+    ecrite a la main : elle vieillit des qu'un flux est ajoute."""
+    return (len(SOURCES.get("feeds", []))
+            + len(SOURCES.get("google_news_queries", []))
+            + len(SOURCES.get("pages", [])) + len(SOURCES.get("alerts", []))
+            + len(ENTITIES.get("youtube_channels", []))
+            + len(ENTITIES.get("marketplaces", [])))
+
+
 def _index():
     """Page d'accueil du site publie.
 
@@ -254,7 +264,8 @@ def _index():
     pages = [
         ("radar.html", "Le radar", "Corpus de presse, vid\u00e9os, offre, citations. L'outil de consultation."),
         ("digest.html", "La revue de la semaine", "L'envoi hebdomadaire tel que le recevraient les adh\u00e9rents."),
-        ("sources.html", "D'o\u00f9 viennent les informations", "Les 78 sources interrog\u00e9es et les r\u00e8gles de classement."),
+        ("sources.html", "D'o\u00f9 viennent les informations",
+         f"Les {_nb_sources()} sources interrog\u00e9es et les r\u00e8gles de classement."),
     ]
     cartes = "".join(
         f'<a class="c" href="{u}"><b>{t}</b><span>{d2}</span></a>' for u, t, d2 in pages)

@@ -17,7 +17,7 @@ load_dotenv()
 
 from core import store, editorial, llm, health           # noqa: E402
 from core.config import CLIENT, OUT_DIR                  # noqa: E402
-from render import radar, digest                         # noqa: E402
+from render import radar, digest, sources as sources_page  # noqa: E402
 
 
 def week_label(d=None):
@@ -135,6 +135,11 @@ def run(cadence, dry_run=False):
 
     out, payload = radar.render()
     print(f"→ radar régénéré : {out}")
+
+    # Le site publie sert out/ tel quel. Ces deux pages n'etaient produites
+    # qu'a la main : la racine partagee renvoyait une 404 et l'inventaire des
+    # sources ne quittait jamais le poste.
+    print(f"→ sources et page d'accueil : {sources_page.render()}")
     return 0
 
 
