@@ -1,0 +1,417 @@
+{
+  "_comment": "Sources du radar. cadence: daily|weekly|monthly|quarterly. kind: rss|page|api|calendar.",
+  "feeds": [
+    {
+      "id": "zayactu",
+      "name": "ZayActu",
+      "kind": "rss",
+      "url": "https://zayactu.org/feed/",
+      "scope": "Martinique",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "radiofusion",
+      "name": "Radio Fusion",
+      "kind": "rss",
+      "url": "https://radiofusion.fr/feed/",
+      "scope": "Martinique",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "justice",
+      "name": "Journal Justice",
+      "kind": "rss",
+      "url": "https://journal-justice.fr/feed/",
+      "scope": "Martinique",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "antilla",
+      "name": "Antilla",
+      "kind": "rss",
+      "url": "https://antilla-martinique.com/feed/",
+      "scope": "Martinique",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "capinfos",
+      "name": "Cap'infos",
+      "kind": "rss",
+      "url": "https://cap-infos.fr/feed/",
+      "scope": "Martinique",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "lelegis",
+      "name": "Le Legis",
+      "kind": "rss",
+      "url": "https://www.lelegis.fr/feed/",
+      "scope": "Martinique",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "interentreprises",
+      "name": "Interentreprises",
+      "kind": "rss",
+      "url": "https://www.interentreprises.com/feed/",
+      "scope": "Antilles-Guyane",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "ccn",
+      "name": "Caraib Creole News",
+      "kind": "rss",
+      "url": "https://caraibcreolenews.com/feed/",
+      "scope": "Antilles",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "karibinfo",
+      "name": "KaribInfo",
+      "kind": "rss",
+      "url": "https://www.karibinfo.com/feed/",
+      "scope": "Antilles",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "stmartinweek",
+      "name": "St Martin Week",
+      "kind": "rss",
+      "url": "https://www.stmartinweek.fr/feed/",
+      "scope": "Antilles",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "outremers360",
+      "name": "Outremers360",
+      "kind": "rss",
+      "url": "https://api.outremers360.com/rss/fil-info.xml",
+      "scope": "Outre-mer",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "etvgp",
+      "name": "ETV Guadeloupe",
+      "kind": "rss",
+      "url": "https://www.etv.gp/feed/",
+      "scope": "Antilles",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "fedom",
+      "name": "FEDOM",
+      "kind": "rss",
+      "url": "https://fedom.org/feed/",
+      "scope": "Politique publique ultramarine",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "tourmag",
+      "name": "TourMaG",
+      "kind": "rss",
+      "url": "https://www.tourmag.com/xml/syndication.rss",
+      "scope": "Distribution FR",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "openjawqc",
+      "name": "Open Jaw Québec",
+      "kind": "rss",
+      "url": "https://quebec.openjaw.com/feed/",
+      "scope": "Distribution QC",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "travelweek",
+      "name": "Travelweek",
+      "kind": "rss",
+      "url": "https://www.travelweek.ca/feed/",
+      "scope": "Trade CA",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "travelcourier",
+      "name": "Travel Courier",
+      "kind": "rss",
+      "url": "https://www.travelcourier.ca/feed/",
+      "scope": "Trade CA",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "cruiseindustry",
+      "name": "Cruise Industry News",
+      "kind": "rss",
+      "url": "https://www.cruiseindustrynews.com/feed/",
+      "scope": "Croisière",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "aeroroutes",
+      "name": "AeroRoutes",
+      "kind": "rss",
+      "url": "https://www.aeroroutes.com/?format=rss",
+      "scope": "Aérien",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "caribjournal",
+      "name": "Caribbean Journal",
+      "kind": "rss",
+      "url": "https://www.caribjournal.com/feed/",
+      "scope": "Caraïbe",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "stluciatimes",
+      "name": "St Lucia Times",
+      "kind": "rss",
+      "url": "https://www.stluciatimes.com/feed/",
+      "scope": "Concurrence",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "dominicanews",
+      "name": "Dominica News Online",
+      "kind": "rss",
+      "url": "https://dominicanewsonline.com/news/feed/",
+      "scope": "Concurrence",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "barbadostoday",
+      "name": "Barbados Today",
+      "kind": "rss",
+      "url": "https://barbadostoday.bb/feed/",
+      "scope": "Concurrence",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "iedom",
+      "name": "IEDOM",
+      "kind": "rss",
+      "url": "https://www.iedom.fr/spip.php?page=backend",
+      "scope": "Conjoncture",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "nhc",
+      "name": "National Hurricane Center",
+      "kind": "rss",
+      "url": "https://www.nhc.noaa.gov/index-at.xml",
+      "scope": "Alerte cyclonique",
+      "cadence": "daily",
+      "verified": "2026-09-11"
+    },
+    {
+      "id": "journalaviation",
+      "name": "Le Journal de l'Aviation",
+      "kind": "rss",
+      "url": "https://www.journal-aviation.com/rss",
+      "scope": "Aérien",
+      "cadence": "weekly",
+      "verified": "2026-09-11"
+    }
+  ],
+  "google_news_queries": [
+    {
+      "id": "gn_martinique_tourisme",
+      "q": "\"Martinique\" (tourisme OR hôtellerie OR croisière) -site:zilea-martinique.com",
+      "cadence": "weekly"
+    },
+    {
+      "id": "gn_cmt",
+      "q": "\"Comité Martiniquais du Tourisme\" -site:martinique.org",
+      "cadence": "weekly"
+    },
+    {
+      "id": "gn_samac",
+      "q": "\"aéroport Aimé Césaire\" OR SAMAC Martinique",
+      "cadence": "weekly"
+    }
+  ],
+  "_google_news_note": "NE JAMAIS utiliser site:domaine-adherent. 97% du corpus devient du contenu owned. Toujours la mention de marque en excluant le domaine propre.",
+  "pages": [
+    {
+      "id": "cmt_presse",
+      "name": "CMT Espace Presse",
+      "kind": "page",
+      "url": "https://presse.martinique.org/fr",
+      "cadence": "weekly"
+    },
+    {
+      "id": "cmt_obs",
+      "name": "CMT Observatoire",
+      "kind": "page",
+      "url": "https://pro.martinique.org/fr/nos-services/observatoire-et-etudes",
+      "cadence": "monthly"
+    },
+    {
+      "id": "martiniquepro",
+      "name": "Martinique Pro (trade US/CA)",
+      "kind": "page",
+      "url": "https://martiniquepro.org/",
+      "cadence": "monthly"
+    },
+    {
+      "id": "gpm",
+      "name": "Grand Port Maritime",
+      "kind": "page",
+      "url": "https://www.martinique.port.fr/",
+      "cadence": "monthly"
+    },
+    {
+      "id": "rci_eco",
+      "name": "RCI Martinique — Économie",
+      "kind": "page",
+      "url": "https://rci.fm/martinique/infos/Economie",
+      "cadence": "weekly",
+      "note": "URLs /infos/ OK, /node/ refusees par robots.txt"
+    },
+    {
+      "id": "prefecture",
+      "name": "Préfecture de la Martinique",
+      "kind": "page",
+      "url": "https://www.martinique.gouv.fr/Actualites",
+      "cadence": "weekly"
+    },
+    {
+      "id": "odyssi",
+      "name": "ODYSSI",
+      "kind": "page",
+      "url": "https://www.odyssi.fr/actualites",
+      "cadence": "weekly"
+    },
+    {
+      "id": "cruisemapper",
+      "name": "CruiseMapper Fort-de-France",
+      "kind": "page",
+      "url": "https://www.cruisemapper.com/ports/fort-de-france-port-2382",
+      "cadence": "weekly"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "sargasses",
+      "name": "Bulletin sargasses",
+      "kind": "page",
+      "url": "https://meteofrance.mq/fr/sargasses",
+      "cadence": "daily"
+    },
+    {
+      "id": "vigilance",
+      "name": "Vigilance Météo-France Martinique",
+      "kind": "page",
+      "url": "https://meteofrance.mq/fr/vigilance",
+      "cadence": "daily"
+    },
+    {
+      "id": "vigieau",
+      "name": "VigiEau — arrêtés sécheresse",
+      "kind": "api",
+      "url": "https://api.vigieau.beta.gouv.fr/api/reglementation",
+      "cadence": "daily",
+      "note": "interroger par code commune INSEE"
+    }
+  ],
+  "institutional_calendar": [
+    {
+      "id": "insee_conj",
+      "name": "INSEE Conjoncture Martinique",
+      "url": "https://www.insee.fr/fr/statistiques",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "cadence": "quarterly"
+    },
+    {
+      "id": "iedom_tc",
+      "name": "IEDOM Tendances conjoncturelles",
+      "url": "https://www.iedom.fr/martinique/",
+      "months": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "cadence": "quarterly"
+    },
+    {
+      "id": "iedom_ra",
+      "name": "IEDOM Rapport annuel",
+      "url": "https://www.iedom.fr/martinique/",
+      "months": [
+        6
+      ],
+      "cadence": "quarterly"
+    },
+    {
+      "id": "cerom",
+      "name": "CEROM Comptes économiques rapides",
+      "url": "https://www.cerom-outremer.fr/martinique/",
+      "months": [
+        7
+      ],
+      "cadence": "quarterly"
+    }
+  ],
+  "blocked": [
+    {
+      "name": "Martinique la 1ère",
+      "url": "https://la1ere.franceinfo.fr/martinique/",
+      "reason": "robots.txt refuse tout le domaine, flux compris",
+      "action": "titre+lien seulement, ou accord redaction"
+    },
+    {
+      "name": "France-Antilles",
+      "url": "https://www.martinique.franceantilles.fr/",
+      "reason": "kiosque payant",
+      "action": "hors perimetre"
+    },
+    {
+      "name": "Zouk TV",
+      "url": "zouktv.com",
+      "reason": "chaine arretee 2021, domaine reaffecte a un site de paris sportifs",
+      "action": "NE JAMAIS INJECTER"
+    }
+  ],
+  "tripadvisor": {
+    "_comment": "Content API. Entree : tripadvisor.com/developers, bouton 'Log in to get started' en bas du tableau des offres ; la connexion se fait avec un compte Tripadvisor existant. Offre 'Discover' en libre-service : facturation a l'entite (une entite = un location_id renvoye), gratuit pour demarrer, a partir de 0,009 $ par entite, 10 000 appels par jour, 10 requetes par seconde, support communautaire. Inclus : details factuels, notes, resumes d'avis, 3 avis les plus recents, 5 photos. NON inclus dans Discover : le CLASSEMENT local (POI rankings), reserve a l'offre Growth sous contrat. L'affichage impose le logo et les bulles de notation a cote des donnees.",
+    "base_url": "https://api.content.tripadvisor.com/api/v1",
+    "search_path": "/location/search",
+    "details_path": "/location/{id}/details",
+    "search_suffix": "Martinique",
+    "language": "fr",
+    "currency": "EUR",
+    "plan": "Discover (libre-service)",
+    "daily_call_limit": 10000,
+    "qps": 10,
+    "ranking_available": false
+  }
+}

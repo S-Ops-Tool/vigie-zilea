@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.zilea.vigie.weekly</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/vianneycourbon/Developer/Claude ai/vigie/scripts/hebdo.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>1</integer>
+    <key>Hour</key><integer>8</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+  <!-- si le Mac dormait a 8h le lundi, le run part au reveil -->
+  <key>RunAtLoad</key><false/>
+  <key>StandardOutPath</key>
+  <string>/Users/vianneycourbon/Developer/Claude ai/vigie/out/logs/launchd.out</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/vianneycourbon/Developer/Claude ai/vigie/out/logs/launchd.err</string>
+</dict>
+</plist>

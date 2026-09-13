@@ -1,0 +1,34 @@
+{
+  "id": "zilea",
+  "name": "Ziléa",
+  "long_name": "Ziléa — Cluster du tourisme en Martinique",
+  "website": "https://www.zilea-martinique.com/",
+  "timezone": "America/Martinique",
+  "locale": "fr_FR",
+  "territory": "Martinique",
+  "brand": {
+    "teal": "#499D9C",
+    "teal_deep": "#2E6E6D",
+    "teal_soft": "#E4F4F3",
+    "amber": "#F4C475",
+    "amber_deep": "#8A6420",
+    "ink": "#0A0A0A",
+    "paper": "#F6FBFB",
+    "display_font": "Poppins",
+    "body_font": "Public Sans",
+    "mono_font": "IBM Plex Mono"
+  },
+  "digest": {
+    "title": "Vigie",
+    "send_day": "monday",
+    "send_hour_local": 6,
+    "min_items": 4,
+    "fallback_cadence": "biweekly",
+    "recipients_file": "config/recipients.txt",
+    "president_recipients_file": "config/recipients_president.txt"
+  },
+  "radar": {
+    "output": "out/radar.html",
+    "window_months": 6
+  }
+}

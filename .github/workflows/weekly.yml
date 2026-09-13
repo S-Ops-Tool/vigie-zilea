@@ -1,0 +1,83 @@
+name: Vigie — run hebdomadaire
+
+on:
+  schedule:
+    # lundi 10:00 UTC = 06:00 AST (Martinique, UTC-4, pas de changement d'heure)
+    - cron: "0 10 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# deux runs ne doivent jamais écrire le corpus en même temps : le second
+# perdrait son push, donc une semaine de collecte
+concurrency:
+  group: vigie-corpus
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    # deploy-pages exige un environnement déclaré, sinon l'étape échoue
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Collecte et rendu
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          VIATOR_API_KEY: ${{ secrets.VIATOR_API_KEY }}
+        run: python run.py --cadence weekly
+
+      - name: Envoi du digest
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          DKIM_SELECTOR: ${{ secrets.DKIM_SELECTOR }}
+          VIGIE_SIMULATE_DELIVERY: ${{ vars.VIGIE_SIMULATE_DELIVERY }}
+        run: python run.py --send
+
+      - name: Commit du corpus et des relevés
+        run: |
+          git config user.name "vigie-bot"
+          git config user.email "vigie-bot@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet && echo "rien de neuf" && exit 0
+          git commit -m "corpus: run du $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
+
+      # Le radar est toujours recuperable depuis l'onglet Actions, en piece
+      # jointe du run. La publication Pages, elle, est optionnelle : sur un
+      # plan gratuit, un depot PRIVE ne peut pas publier de site, et un site
+      # publie est de toute facon public. Tant que la variable PUBLISH_PAGES
+      # ne vaut pas 1, le depot reste prive et rien n'est expose.
+      - name: Radar et digest en piece jointe du run
+        uses: actions/upload-artifact@v4
+        with:
+          name: vigie-${{ github.run_number }}
+          path: out/
+          retention-days: 90
+
+      - uses: actions/configure-pages@v5
+        id: pages
+        if: vars.PUBLISH_PAGES == '1'
+      - uses: actions/upload-pages-artifact@v3
+        if: vars.PUBLISH_PAGES == '1'
+        with:
+          path: out/
+      - uses: actions/deploy-pages@v4
+        if: vars.PUBLISH_PAGES == '1' 

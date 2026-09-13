@@ -1,0 +1,2 @@
+# Un destinataire par ligne. Les lignes vides et celles commençant par # sont ignorées.
+# Les adresses passent en Bcc.

@@ -1,0 +1,824 @@
+{
+  "_comment": "Entites suivies. Un adherent peut etre present sur plusieurs canaux ; le champ 'id' fait la jointure.",
+  "members_press_watchlist": [
+    "Bakoua",
+    "La Batelière",
+    "Karibea",
+    "Club Med Les Boucaniers",
+    "Pierre & Vacances",
+    "La Suite Villa",
+    "Plein Soleil",
+    "Domaine Saint Aubin",
+    "La Pagerie",
+    "Cap Est Lagoon",
+    "French Coco",
+    "Valmenière",
+    "Simon Hôtel",
+    "Squash Hôtel",
+    "Résidence Océane",
+    "Village Créole",
+    "ILOMA",
+    "Anse Bleue",
+    "Le Panoramic",
+    "Diamant Beach",
+    "Habitation Clément",
+    "Fondation Clément",
+    "Habitation Saint-Étienne",
+    "Plantation Trois Rivières",
+    "Habitation Céron",
+    "Jardin de Balata",
+    "Savane des Esclaves",
+    "Domaine d'Émeraude",
+    "Zoo de Martinique",
+    "Mémorial de la Catastrophe de 1902",
+    "Parc Naturel Régional",
+    "Mangofil",
+    "Atao Plongée",
+    "Diamond Rock Catamaran",
+    "Les Ballades du Delphis",
+    "Excursions Martinique",
+    "Beyond the Beach",
+    "Cœur des Îles",
+    "Igwatours",
+    "Passion Outremer",
+    "Martinique Access'Île",
+    "Captain Marcson",
+    "Watt Up",
+    "Le Roi Mongin",
+    "Alwego",
+    "Jumbo Car",
+    "Carfully",
+    "Pop's Car",
+    "Europcar Martinique",
+    "Le Petibonum",
+    "Le Brédas"
+  ],
+  "youtube_channels": [
+    {
+      "name": "Parc Naturel Régional de Martinique",
+      "type": "adherent",
+      "handle": "pnrmartinique",
+      "channel_id": "UCpwyEfzO5xtNpcBCNje4Rkw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpwyEfzO5xtNpcBCNje4Rkw"
+    },
+    {
+      "name": "Fondation Clément",
+      "type": "adherent",
+      "handle": "fondationclement1375",
+      "channel_id": "UCiMoxQlOrOy4ve7RZmKYAsg",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiMoxQlOrOy4ve7RZmKYAsg"
+    },
+    {
+      "name": "Atao Plongée (chaîne du gérant)",
+      "type": "adherent",
+      "handle": "olivierlagarrigue8567",
+      "channel_id": "UCr9YCCI_LM0XMRgNwgi6GEA",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCr9YCCI_LM0XMRgNwgi6GEA"
+    },
+    {
+      "name": "Le Petibonum",
+      "type": "adherent",
+      "handle": "lepetibonumlecarbetmartini3342",
+      "channel_id": "UC6WaOG4RIQ5CpaJ5sq0j9Vg",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6WaOG4RIQ5CpaJ5sq0j9Vg"
+    },
+    {
+      "name": "Habitation Saint-Étienne",
+      "type": "adherent",
+      "handle": "RhumHSE",
+      "channel_id": "UCLsmNdkjNkOyj7sfTmEf0mQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLsmNdkjNkOyj7sfTmEf0mQ"
+    },
+    {
+      "name": "Karibea Hôtels & Résidences",
+      "type": "adherent",
+      "handle": "KaribeaHotels",
+      "channel_id": "UCiUxvdDgWRf3q0R99PJJpEw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiUxvdDgWRf3q0R99PJJpEw"
+    },
+    {
+      "name": "Rhum Clément",
+      "type": "adherent",
+      "handle": "RhumClementMartinique",
+      "channel_id": "UCYPx6TYjTWWLeAy_iJnHiEw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYPx6TYjTWWLeAy_iJnHiEw"
+    },
+    {
+      "name": "Carfully",
+      "type": "adherent",
+      "handle": "Carfullyapp",
+      "channel_id": "UCVJN5UOSe4Sv6sf82SvNKuw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVJN5UOSe4Sv6sf82SvNKuw"
+    },
+    {
+      "name": "Beyond the Beach",
+      "type": "adherent",
+      "handle": "beyondthebeach-excursionsm8650",
+      "channel_id": "UCczrHN9uMce5ana55uChPrA",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCczrHN9uMce5ana55uChPrA"
+    },
+    {
+      "name": "Europcar Martinique",
+      "type": "adherent",
+      "handle": "Europcarmartinique972",
+      "channel_id": "UCITnEOLWDarx2O8JEVhWskQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCITnEOLWDarx2O8JEVhWskQ"
+    },
+    {
+      "name": "Zoo de Martinique",
+      "type": "adherent",
+      "handle": "zoodemartinique5776",
+      "channel_id": "UCvPvFli5Ay7jpJM26GK4E0g",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvPvFli5Ay7jpJM26GK4E0g"
+    },
+    {
+      "name": "Cœur des Îles",
+      "type": "adherent",
+      "handle": "coeurdesiles97",
+      "channel_id": "UCU8rNtjj1UC9bRnr0ni0Wxw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCU8rNtjj1UC9bRnr0ni0Wxw"
+    },
+    {
+      "name": "Jumbo Car Martinique",
+      "type": "adherent",
+      "handle": "jumbocarmartinique5229",
+      "channel_id": "UCdRwQRVl6JW7sbvKe9TR8sw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdRwQRVl6JW7sbvKe9TR8sw"
+    },
+    {
+      "name": "Watt Up",
+      "type": "adherent",
+      "handle": "wattupbasedeloisirselectri7835",
+      "channel_id": "UCnrKIOgX5kPHO6f40m8k92w",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnrKIOgX5kPHO6f40m8k92w"
+    },
+    {
+      "name": "Captain Marcson",
+      "type": "adherent",
+      "handle": "captainmarcson9621",
+      "channel_id": "UCFVV-7gl3CT54s9sKNAUyQg",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFVV-7gl3CT54s9sKNAUyQg"
+    },
+    {
+      "name": "Plantation Trois Rivières",
+      "type": "adherent",
+      "handle": "rhumtroisrivieres",
+      "channel_id": "UC5UxjhA1gr4t-mswgIuAvIQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5UxjhA1gr4t-mswgIuAvIQ"
+    },
+    {
+      "name": "Jardin de Balata",
+      "type": "adherent",
+      "handle": "jardindebalata4589",
+      "channel_id": "UCpxzfFQBH_MoNs2Y0VMQATQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpxzfFQBH_MoNs2Y0VMQATQ"
+    },
+    {
+      "name": "Savane des Esclaves",
+      "type": "adherent",
+      "handle": "lasavanedesesclaves6083",
+      "channel_id": "UCz4mQu2Y4586Vst-xmj1duw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCz4mQu2Y4586Vst-xmj1duw"
+    },
+    {
+      "name": "Boucaniers Diving",
+      "type": "adherent",
+      "handle": "BoucaniersDiving",
+      "channel_id": "UC0E2pjNk7bCBMslNo2GB6jg",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0E2pjNk7bCBMslNo2GB6jg"
+    },
+    {
+      "name": "Hôtel La Pagerie",
+      "type": "adherent",
+      "handle": "LaPagerie-TropicalGardenHotel",
+      "channel_id": "UC2DlrdwHfW7MdOv_1CLDJ2w",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2DlrdwHfW7MdOv_1CLDJ2w"
+    },
+    {
+      "name": "Hôtel Bakoua",
+      "type": "adherent",
+      "handle": "HotelbakouaFrmartinique",
+      "channel_id": "UCj-UP4YZp7hFJBJBsuy9f4w",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCj-UP4YZp7hFJBJBsuy9f4w"
+    },
+    {
+      "name": "La Suite Villa",
+      "type": "adherent",
+      "handle": "LaSuiteVillaLesTroisIlets",
+      "channel_id": "UCzO4XQp_O8VZk6yMv5pDkpg",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzO4XQp_O8VZk6yMv5pDkpg"
+    },
+    {
+      "name": "Domaine Saint Aubin",
+      "type": "adherent",
+      "handle": "ledomainesaintaubin",
+      "channel_id": "UCgUdjaTRRB6w1VBlle1baqA",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgUdjaTRRB6w1VBlle1baqA"
+    },
+    {
+      "name": "Cap Est Lagoon Resort",
+      "type": "adherent",
+      "handle": "LeCapest",
+      "channel_id": "UCtx99_bPjQirepfBDiOvCCA",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtx99_bPjQirepfBDiOvCCA"
+    },
+    {
+      "name": "Simon Hôtel",
+      "type": "adherent",
+      "handle": "hotelsimonmartinique3759",
+      "channel_id": "UCEQf6zKtZw__EIK8JXFqenw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEQf6zKtZw__EIK8JXFqenw"
+    },
+    {
+      "name": "Le Panoramic",
+      "type": "adherent",
+      "handle": "lepanoramicmartinique9422",
+      "channel_id": "UCbAkngiEI71OZn0U4N5zXmA",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbAkngiEI71OZn0U4N5zXmA"
+    },
+    {
+      "name": "French Coco",
+      "type": "adherent",
+      "handle": "hotelfrenchcoco7879",
+      "channel_id": "UCqLyG-eNq2Jx7f5ta5i7onw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqLyG-eNq2Jx7f5ta5i7onw"
+    },
+    {
+      "name": "Habitation Céron",
+      "type": "adherent",
+      "handle": "habitationceron5568",
+      "channel_id": "UC2shbTmue3x5uYOWWV5Pg9Q",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2shbTmue3x5uYOWWV5Pg9Q"
+    },
+    {
+      "name": "Mangofil",
+      "type": "adherent",
+      "handle": "mangofilofficielmartinique6032",
+      "channel_id": "UCfrkpvVArJL9gf_nRMgUrfA",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfrkpvVArJL9gf_nRMgUrfA"
+    },
+    {
+      "name": "Le Roi Mongin",
+      "type": "adherent",
+      "handle": "leroimonginmartinique2854",
+      "channel_id": "UCULoCzh7WF4_ab0XWx4MScw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCULoCzh7WF4_ab0XWx4MScw"
+    },
+    {
+      "name": "OT Sud Martinique",
+      "type": "institution",
+      "handle": "sudmartiniquetourisme",
+      "channel_id": "UCd90EjFLnO1khXdL-Q_9fTA",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCd90EjFLnO1khXdL-Q_9fTA"
+    },
+    {
+      "name": "OT Centre Martinique",
+      "type": "institution",
+      "handle": "officedetourismecentremart3904",
+      "channel_id": "UCPYdZquxktp10BBPrqigkAQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPYdZquxktp10BBPrqigkAQ"
+    },
+    {
+      "name": "La Martinique (CMT)",
+      "type": "institution",
+      "handle": "cmtmartinique",
+      "channel_id": "UCSdK--AHUmm4l-y_JxTiJyg",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSdK--AHUmm4l-y_JxTiJyg"
+    },
+    {
+      "name": "ABC Dive Plongée Martinique",
+      "type": "tierce",
+      "handle": "abcdiveplongeemartinique2836",
+      "channel_id": "UCEEz3f1kyO6Jo7x16Dl89Ag",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEEz3f1kyO6Jo7x16Dl89Ag"
+    },
+    {
+      "name": "Indalo Space",
+      "type": "tierce",
+      "handle": "indalospace3094",
+      "channel_id": "UCrwXFCNUVK-SjPMSHnc7Qow",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrwXFCNUVK-SjPMSHnc7Qow"
+    },
+    {
+      "name": "Alpha Plongée Martinique",
+      "type": "tierce",
+      "handle": "972alphaplongee",
+      "channel_id": "UCq05ZRnaQ3uYzOEk4chk-Ng",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCq05ZRnaQ3uYzOEk4chk-Ng"
+    },
+    {
+      "name": "Martinique Travel",
+      "type": "tierce",
+      "handle": "MartiniqueTravel",
+      "channel_id": "UCwYPbIeLGORUYoBhRTgvNmw",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwYPbIeLGORUYoBhRTgvNmw"
+    },
+    {
+      "name": "Cœur Martinique",
+      "type": "tierce",
+      "handle": "coeurmartinique4033",
+      "channel_id": "UCjdRJTP3rOta8PvRup4Eh2A",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjdRJTP3rOta8PvRup4Eh2A"
+    },
+    {
+      "name": "Côte au Vent",
+      "type": "tierce",
+      "handle": "coteauventmartinique",
+      "channel_id": "UCfNIQ1jgoJ1OASXQKckRYRQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfNIQ1jgoJ1OASXQKckRYRQ"
+    },
+    {
+      "name": "Les Marcheurs Aguerris",
+      "type": "tierce",
+      "handle": "lesmarcheursaguerris",
+      "channel_id": "UCalqSmTNTnaiMKZwUH6xIvQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCalqSmTNTnaiMKZwUH6xIvQ"
+    },
+    {
+      "name": "RCI Martinique",
+      "type": "media",
+      "handle": "rcimartinique972",
+      "channel_id": "UCFjk6rxl8kSYNif3h3McIxQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFjk6rxl8kSYNif3h3McIxQ"
+    },
+    {
+      "name": "Radio Fusion",
+      "type": "media",
+      "handle": "fusiontv5760",
+      "channel_id": "UCyWZvMxWdzafnzoS4sYF9VQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCyWZvMxWdzafnzoS4sYF9VQ"
+    },
+    {
+      "name": "ATV Martinique",
+      "type": "media",
+      "handle": "ATV97",
+      "channel_id": "UC4gl4nVISzIu-fQeyB42KQQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4gl4nVISzIu-fQeyB42KQQ"
+    },
+    {
+      "name": "Martinique la 1ère",
+      "type": "media",
+      "handle": "martiniquela1ere",
+      "channel_id": "UCgA9V57lQlZFXkDfhVGTWSg",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgA9V57lQlZFXkDfhVGTWSg"
+    },
+    {
+      "name": "Guadeloupe la 1ère",
+      "type": "media",
+      "handle": "guadeloupela1ere",
+      "channel_id": "UCGp0ZbEM4j6RA4jufMgG3FA",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCGp0ZbEM4j6RA4jufMgG3FA"
+    },
+    {
+      "name": "Grand Port Maritime",
+      "type": "institution",
+      "handle": "martiniquehubcaraibe5572",
+      "channel_id": "UCtpHtqtxDZKvb_X4oQvmbGQ",
+      "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtpHtqtxDZKvb_X4oQvmbGQ"
+    }
+  ],
+  "instagram_accounts": [
+    {
+      "name": "Cluster Ziléa",
+      "type": "cluster",
+      "handle": "zilea_martinique",
+      "status": "verified"
+    },
+    {
+      "name": "CMT — destination FR",
+      "type": "institution",
+      "handle": "lamartinique",
+      "status": "verified"
+    },
+    {
+      "name": "CMT — destination EN",
+      "type": "institution",
+      "handle": "martiniquetourism",
+      "status": "verified"
+    },
+    {
+      "name": "CMT — 3e compte",
+      "type": "institution",
+      "handle": "martiniquetourisme",
+      "status": "verified"
+    },
+    {
+      "name": "Aéroport Aimé Césaire",
+      "type": "institution",
+      "handle": "aeroportmartinique",
+      "status": "verified"
+    },
+    {
+      "name": "Préfecture de la Martinique",
+      "type": "institution",
+      "handle": "prefet972",
+      "status": "verified"
+    },
+    {
+      "name": "ARS Martinique",
+      "type": "institution",
+      "handle": "ars_martinique",
+      "status": "verified"
+    },
+    {
+      "name": "OT Sud Martinique",
+      "type": "institution",
+      "handle": "sudmartinique",
+      "status": "verified"
+    },
+    {
+      "name": "OT Sud Martinique (2e)",
+      "type": "institution",
+      "handle": "otsudmartinique",
+      "status": "verified"
+    },
+    {
+      "name": "OT Péyi Nord",
+      "type": "institution",
+      "handle": "peyinordmartinique",
+      "status": "verified"
+    },
+    {
+      "name": "IG Martinique",
+      "type": "communaute",
+      "handle": "ig_martinique",
+      "status": "verified"
+    },
+    {
+      "name": "Cap-Martinique",
+      "type": "evenement",
+      "handle": "cap_martinique",
+      "status": "verified"
+    },
+    {
+      "name": "RCI Martinique",
+      "type": "media",
+      "handle": "rcimartinique",
+      "status": "verified"
+    },
+    {
+      "name": "Outremers360",
+      "type": "media",
+      "handle": "outremers360",
+      "status": "verified"
+    },
+    {
+      "name": "Hôtel Bakoua",
+      "type": "hotel",
+      "handle": "hotelbakoua",
+      "status": "verified"
+    },
+    {
+      "name": "La Batelière",
+      "type": "hotel",
+      "handle": "hotelbateliere",
+      "status": "verified"
+    },
+    {
+      "name": "Karibea Hôtels",
+      "type": "hotel",
+      "handle": "karibeahotels",
+      "status": "verified"
+    },
+    {
+      "name": "Club Med Les Boucaniers",
+      "type": "hotel",
+      "handle": "clubmedlesboucaniers",
+      "status": "verified"
+    },
+    {
+      "name": "La Suite Villa",
+      "type": "hotel",
+      "handle": "lasuitevilla",
+      "status": "verified"
+    },
+    {
+      "name": "Hôtel Plein Soleil",
+      "type": "hotel",
+      "handle": "hotelpleinsoleil",
+      "status": "verified"
+    },
+    {
+      "name": "Domaine Saint Aubin",
+      "type": "hotel",
+      "handle": "domainesaintaubin",
+      "status": "verified"
+    },
+    {
+      "name": "Hôtel La Pagerie",
+      "type": "hotel",
+      "handle": "hotellapagerie",
+      "status": "verified"
+    },
+    {
+      "name": "French Coco",
+      "type": "hotel",
+      "handle": "hotelfrenchcoco",
+      "status": "verified"
+    },
+    {
+      "name": "Village Créole",
+      "type": "hebergement",
+      "handle": "villagecreole",
+      "status": "verified"
+    },
+    {
+      "name": "ILOMA Hôtel & Spa",
+      "type": "hotel",
+      "handle": "hoteliloma",
+      "status": "verified"
+    },
+    {
+      "name": "Habitation Clément",
+      "type": "site",
+      "handle": "habitation_clement",
+      "status": "verified"
+    },
+    {
+      "name": "Fondation Clément",
+      "type": "site",
+      "handle": "fondationclement",
+      "status": "verified"
+    },
+    {
+      "name": "Habitation Saint-Étienne",
+      "type": "rhumerie",
+      "handle": "hserhum",
+      "status": "verified"
+    },
+    {
+      "name": "Plantation Trois Rivières",
+      "type": "rhumerie",
+      "handle": "rhumtroisrivieres",
+      "status": "verified"
+    },
+    {
+      "name": "Habitation Céron",
+      "type": "site",
+      "handle": "habitation_ceron",
+      "status": "verified"
+    },
+    {
+      "name": "Jardin de Balata",
+      "type": "site",
+      "handle": "jardindebalata",
+      "status": "verified"
+    },
+    {
+      "name": "Savane des Esclaves",
+      "type": "site",
+      "handle": "la_savane_des_esclaves",
+      "status": "verified"
+    },
+    {
+      "name": "Zoo de Martinique",
+      "type": "site",
+      "handle": "zoodemartinique",
+      "status": "verified"
+    },
+    {
+      "name": "Mangofil",
+      "type": "loisirs",
+      "handle": "mangofilofficiel",
+      "status": "verified"
+    },
+    {
+      "name": "Atao Plongée",
+      "type": "loisirs",
+      "handle": "ataoplongee",
+      "status": "verified"
+    },
+    {
+      "name": "Diamond Rock Catamaran",
+      "type": "loisirs",
+      "handle": "diamondrockmartinique_",
+      "status": "verified"
+    },
+    {
+      "name": "Les Ballades du Delphis",
+      "type": "loisirs",
+      "handle": "catadelphis",
+      "status": "verified"
+    },
+    {
+      "name": "Beyond the Beach",
+      "type": "receptif",
+      "handle": "beyondthebeach_caribbean",
+      "status": "verified"
+    },
+    {
+      "name": "Cœur des Îles",
+      "type": "receptif",
+      "handle": "coeurdesiles.excursions",
+      "status": "verified"
+    },
+    {
+      "name": "Alwego",
+      "type": "loueur",
+      "handle": "alwego_martinique",
+      "status": "verified"
+    },
+    {
+      "name": "Jumbo Car Martinique",
+      "type": "loueur",
+      "handle": "jumbocar_martinique",
+      "status": "verified"
+    },
+    {
+      "name": "Le Petibonum",
+      "type": "restaurant",
+      "handle": "petibonum972",
+      "status": "verified"
+    },
+    {
+      "name": "Carfully",
+      "type": "loueur",
+      "handle": "carfullyapp",
+      "status": "unresolved",
+      "note": "handle non confirme"
+    },
+    {
+      "name": "Le Brédas",
+      "type": "restaurant",
+      "handle": null,
+      "status": "unresolved",
+      "note": "aucun compte etablissement ; chef : @chef_jeancharles_bredas"
+    },
+    {
+      "name": "Cap Est Lagoon Resort",
+      "type": "hotel",
+      "handle": null,
+      "status": "unresolved",
+      "note": "aucun compte trouve"
+    }
+  ],
+  "marketplaces": [
+    {
+      "id": "viator",
+      "name": "Viator",
+      "destination_id": "d4316",
+      "url": "https://www.viator.com/Martinique/d4316-ttd",
+      "api": "partner-basic",
+      "cadence": "weekly"
+    },
+    {
+      "id": "getyourguide",
+      "name": "GetYourGuide",
+      "destination_id": "l169136",
+      "url": "https://www.getyourguide.com/martinique-l169136/",
+      "api": null,
+      "cadence": "weekly"
+    },
+    {
+      "id": "manawa",
+      "name": "Manawa",
+      "destination_id": "1902",
+      "url": "https://www.manawa.com/en/destinations/1902-martinique",
+      "api": null,
+      "cadence": "weekly"
+    }
+  ],
+  "benchmark_destinations": [
+    {
+      "name": "Guadeloupe",
+      "viator": "d4311",
+      "getyourguide": "l169108",
+      "manawa": "3024"
+    },
+    {
+      "name": "Sainte-Lucie",
+      "viator": "d38",
+      "getyourguide": "l169165",
+      "manawa": "3362"
+    },
+    {
+      "name": "Dominique",
+      "viator": "d814",
+      "getyourguide": "l169090",
+      "manawa": "3346"
+    }
+  ],
+  "ecosystem_watchlist": [
+    {
+      "name": "CMT — Comité Martiniquais du Tourisme",
+      "pattern": "(?i)\\bCMT\\b|comité martiniquais du tourisme",
+      "url": "https://www.martinique.org"
+    },
+    {
+      "name": "CTM — Collectivité Territoriale",
+      "pattern": "(?i)\\bCTM\\b|collectivité territoriale de martinique",
+      "url": "https://www.collectivitedemartinique.mq"
+    },
+    {
+      "name": "Préfecture de Martinique",
+      "pattern": "(?i)préfecture de (la )?martinique|préfet de (la )?martinique",
+      "url": "https://www.martinique.gouv.fr"
+    },
+    {
+      "name": "SAMAC — aéroport",
+      "pattern": "(?i)\\bSAMAC\\b|aéroport (international )?(aimé )?césaire|aéroport de fort-de-france",
+      "url": "https://www.martinique.aeroport.fr"
+    },
+    {
+      "name": "Grand Port Maritime",
+      "pattern": "(?i)grand port maritime|\\bGPMLM\\b",
+      "url": "https://www.martinique.port.fr"
+    },
+    {
+      "name": "UMIH",
+      "pattern": "(?i)\\bUMIH\\b",
+      "url": "https://www.umih.fr"
+    },
+    {
+      "name": "MEDEF",
+      "pattern": "(?i)\\bMEDEF\\b",
+      "url": "https://www.medef.com"
+    },
+    {
+      "name": "Ziléa",
+      "pattern": "(?i)ziléa|\\bzilea\\b",
+      "url": "https://zilea-martinique.com"
+    },
+    {
+      "name": "Air France",
+      "pattern": "(?i)air france",
+      "url": "https://www.airfrance.fr"
+    },
+    {
+      "name": "Air Caraïbes",
+      "pattern": "(?i)air caraïbes|air caraibes",
+      "url": "https://www.aircaraibes.com"
+    },
+    {
+      "name": "Corsair",
+      "pattern": "(?i)\\bcorsair\\b",
+      "url": "https://www.flycorsair.com"
+    },
+    {
+      "name": "Air Transat",
+      "pattern": "(?i)air transat",
+      "url": "https://www.airtransat.com"
+    },
+    {
+      "name": "Costa Croisières",
+      "pattern": "(?i)costa croisi",
+      "url": "https://www.costacroisieres.fr"
+    },
+    {
+      "name": "MSC Croisières",
+      "pattern": "(?i)\\bMSC\\b",
+      "url": "https://www.msccroisieres.fr"
+    },
+    {
+      "name": "Exotismes",
+      "pattern": "(?i)exotismes",
+      "url": "https://www.exotismes.fr"
+    },
+    {
+      "name": "INSEE",
+      "pattern": "(?i)\\bINSEE\\b",
+      "url": "https://www.insee.fr"
+    },
+    {
+      "name": "IEDOM",
+      "pattern": "(?i)\\bIEDOM\\b",
+      "url": "https://www.iedom.fr"
+    }
+  ],
+  "destination_watchlist": [
+    {
+      "name": "Guadeloupe",
+      "pattern": "(?i)guadeloupe",
+      "url": "https://www.lesilesdeguadeloupe.com"
+    },
+    {
+      "name": "Sainte-Lucie",
+      "pattern": "(?i)sainte-lucie|saint lucia",
+      "url": "https://www.stlucia.org"
+    },
+    {
+      "name": "Barbade",
+      "pattern": "(?i)barbade|barbados",
+      "url": "https://www.visitbarbados.org"
+    },
+    {
+      "name": "La Dominique",
+      "pattern": "(?i)\\bla dominique\\b|\\bdominica\\b",
+      "url": "https://discoverdominica.com"
+    },
+    {
+      "name": "République dominicaine",
+      "pattern": "(?i)dominicaine",
+      "url": "https://www.godominicanrepublic.com"
+    },
+    {
+      "name": "Cuba",
+      "pattern": "(?i)\\bcuba\\b"
+    },
+    {
+      "name": "Jamaïque",
+      "pattern": "(?i)jamaïque|jamaica",
+      "url": "https://www.visitjamaica.com"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_comment": "Regles editoriales appliquees AVANT tout appel au modele. Un item bloque n'est jamais resume.",
+  "president_only_patterns": [
+    "(?i)\\bbodacc\\b",
+    "(?i)liquidation judiciaire",
+    "(?i)redressement judiciaire",
+    "(?i)procédure collective",
+    "(?i)cessation de paiement",
+    "(?i)\\bréféré\\b",
+    "(?i)mise en demeure",
+    "(?i)condamn(é|ation)",
+    "(?i)placement en sauvegarde",
+    "(?i)changement de gérance"
+  ],
+  "exclude_patterns": [
+    "(?i)horoscope",
+    "(?i)résultats sportifs",
+    "(?i)nécrologie"
+  ],
+  "summary": {
+    "max_sentences": 3,
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "one_article_at_a_time": true,
+    "forbid_cross_article_inference": true
+  },
+  "disclosure_fr": "Revue générée automatiquement. Aucune relecture humaine. Chaque titre et chaque chiffre est repris tel quel de sa source.",
+  "copyright_note_fr": "Revue de liens et de résumés ; aucun article n'est reproduit.",
+  "window_days": 8,
+  "digest_kinds": [
+    "article",
+    "alert"
+  ],
+  "min_items": 4,
+  "excluded_sources": [
+    "facebook.com",
+    "x.com",
+    "twitter.com",
+    "instagram.com",
+    "tiktok.com",
+    "youtube.com",
+    "m.facebook.com",
+    "fr-fr.facebook.com",
+    "Annonces du Bateau",
+    "leboncoin.fr"
+  ],
+  "local_tourism_sources": [
+    "Martinique Tourisme",
+    "Comité Martiniquais du Tourisme",
+    "Ziléa",
+    "Zilea",
+    "CMT Martinique"
+  ],
+  "sector_cap": 5,
+  "sector_themes": [
+    "DISTRI",
+    "AIR",
+    "CROIS",
+    "FREQ"
+  ]
+}
