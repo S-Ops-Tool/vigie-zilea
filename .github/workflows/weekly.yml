@@ -52,6 +52,13 @@ jobs:
 
       - name: Commit du corpus et des relevés
         run: |
+          # Une relance ("Re-run jobs") rejoue un ancien commit : git s'y trouve
+          # sur une tete detachee, et pousser depuis la echoue. Le run entier
+          # tombait alors qu'il avait deja collecte et produit ses fichiers.
+          if [ "$(git rev-parse --abbrev-ref HEAD)" = "HEAD" ]; then
+            echo "relance d'un run passe : le corpus n'est pas reecrit"
+            exit 0
+          fi
           git config user.name "vigie-bot"
           git config user.email "vigie-bot@users.noreply.github.com"
           git add data/
