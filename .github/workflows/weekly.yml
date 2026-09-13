@@ -66,7 +66,7 @@ jobs:
       # publie est de toute facon public. Tant que la variable PUBLISH_PAGES
       # ne vaut pas 1, le depot reste prive et rien n'est expose.
       - name: Radar et digest en piece jointe du run
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: vigie-${{ github.run_number }}
           path: out/

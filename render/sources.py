@@ -239,7 +239,53 @@ def build():
 def render():
     out = OUT_DIR / "sources.html"
     out.write_text(build(), encoding="utf-8")
+    _index()
     return out
+
+
+def _index():
+    """Page d'accueil du site publie.
+
+    GitHub Pages sert le contenu de out/ tel quel : sans index.html, la racine
+    renvoie une 404 et le lien qu'on partage ne mene nulle part.
+    """
+    import datetime
+    d = datetime.date.today().strftime("%d/%m/%Y")
+    pages = [
+        ("radar.html", "Le radar", "Corpus de presse, vid\u00e9os, offre, citations. L'outil de consultation."),
+        ("digest.html", "La revue de la semaine", "L'envoi hebdomadaire tel que le recevraient les adh\u00e9rents."),
+        ("sources.html", "D'o\u00f9 viennent les informations", "Les 78 sources interrog\u00e9es et les r\u00e8gles de classement."),
+    ]
+    cartes = "".join(
+        f'<a class="c" href="{u}"><b>{t}</b><span>{d2}</span></a>' for u, t, d2 in pages)
+    (OUT_DIR / "index.html").write_text(f"""<!doctype html><html lang="fr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{CLIENT['name']} \u2014 Vigie</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Public+Sans:wght@400&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+:root{{--g:#F4F9F8;--s:#fff;--i:#12211F;--i2:#3B4B4A;--m:#6D8382;--r:#DCE9E8;--b:{B['teal']};--bd:{B['teal_deep']}}}
+@media(prefers-color-scheme:dark){{:root{{--g:#0D1817;--s:#152322;--i:#E7F2F1;--i2:#B6CBC9;--m:#7E9695;--r:#243937;--b:#6CBFBE;--bd:#8FD4D3}}}}
+*{{box-sizing:border-box}}
+body{{margin:0;background:var(--g);color:var(--i);font-family:"Public Sans",system-ui,sans-serif;line-height:1.6}}
+.w{{max-width:640px;margin:0 auto;padding:0 20px;padding-block:64px 72px}}
+img{{width:180px;max-width:50vw;height:auto;border-radius:6px;margin-bottom:20px}}
+@media(prefers-color-scheme:dark){{img{{background:#fff;padding:8px 10px}}}}
+h1{{font-family:"Poppins",sans-serif;font-weight:700;font-size:34px;line-height:1.1;margin:0 0 8px;letter-spacing:-.02em}}
+p.s{{color:var(--i2);margin:0 0 32px}}
+.c{{display:flex;flex-direction:column;gap:3px;background:var(--s);border:1px solid var(--r);
+ border-radius:12px;padding:17px 19px;margin-bottom:11px;text-decoration:none;color:inherit;
+ transition:border-color .15s}}
+.c:hover{{border-color:var(--b)}}
+.c b{{font-family:"Poppins",sans-serif;font-size:17px}}
+.c span{{color:var(--m);font-size:14px}}
+footer{{margin-top:34px;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--m);line-height:1.8}}
+</style></head><body><div class="w">
+{_logo()}
+<h1>Vigie</h1>
+<p class="s">Veille du secteur touristique martiniquais. Recalcul\u00e9e chaque lundi \u00e0 6\u00a0h, heure de Martinique.</p>
+{cartes}
+<footer>Derni\u00e8re mise \u00e0 jour : {d}<br>Aucune relecture humaine. Chaque titre, date et lien est repris tel quel de sa source.</footer>
+</div></body></html>""", encoding="utf-8")
 
 
 TPL = """<!doctype html><html lang="fr"><head><meta charset="utf-8">
