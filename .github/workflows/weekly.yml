@@ -33,13 +33,23 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Collecte et rendu
+        id: rendu
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           VIATOR_API_KEY: ${{ secrets.VIATOR_API_KEY }}
         run: python run.py --cadence weekly
 
+      # Un digest non envoye ne doit pas empecher la publication du radar.
+      # L'etape refusait l'envoi (DKIM et DMARC pas encore publies) et rendait
+      # la main avec le code 1 : tout ce qui suit, dont le site, etait saute
+      # alors que la collecte et le rendu avaient reussi. Elle signale
+      # desormais son echec sans arreter le run.
+      # Par defaut le message est ecrit en .eml au lieu d'etre expedie. Pour
+      # passer a l'envoi reel : creer la variable VIGIE_SIMULATE_DELIVERY = 0
+      # une fois DKIM et DMARC publies et les secrets SMTP renseignes.
       - name: Envoi du digest
+        continue-on-error: true
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -47,7 +57,7 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           SMTP_FROM: ${{ secrets.SMTP_FROM }}
           DKIM_SELECTOR: ${{ secrets.DKIM_SELECTOR }}
-          VIGIE_SIMULATE_DELIVERY: ${{ vars.VIGIE_SIMULATE_DELIVERY }}
+          VIGIE_SIMULATE_DELIVERY: ${{ vars.VIGIE_SIMULATE_DELIVERY || '1' }}
         run: python run.py --send
 
       - name: Commit du corpus et des relevés
@@ -72,7 +82,10 @@ jobs:
       # plan gratuit, un depot PRIVE ne peut pas publier de site, et un site
       # publie est de toute facon public. Tant que la variable PUBLISH_PAGES
       # ne vaut pas 1, le depot reste prive et rien n'est expose.
+      # La piece jointe et le site ne dependent que du rendu : ni l'envoi du
+      # digest ni le commit du corpus ne doivent les empecher.
       - name: Radar et digest en piece jointe du run
+        if: steps.rendu.conclusion == 'success'
         uses: actions/upload-artifact@v7
         with:
           name: vigie-${{ github.run_number }}
@@ -81,10 +94,10 @@ jobs:
 
       - uses: actions/configure-pages@v5
         id: pages
-        if: vars.PUBLISH_PAGES == '1'
+        if: steps.rendu.conclusion == 'success' && vars.PUBLISH_PAGES == '1'
       - uses: actions/upload-pages-artifact@v3
-        if: vars.PUBLISH_PAGES == '1'
+        if: steps.rendu.conclusion == 'success' && vars.PUBLISH_PAGES == '1'
         with:
           path: out/
       - uses: actions/deploy-pages@v4
-        if: vars.PUBLISH_PAGES == '1' 
+        if: steps.rendu.conclusion == 'success' && vars.PUBLISH_PAGES == '1' 
