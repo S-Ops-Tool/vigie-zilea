@@ -1,0 +1,47 @@
+name: Vigie — republier le site
+
+# Publier n'est pas collecter. Ce run refabrique les pages a partir du corpus
+# deja present dans le depot : pas d'appel externe, pas de cle, pas de depense,
+# et surtout pas de releve supplementaire qui fausserait l'ecart hebdomadaire.
+# Il ne part jamais seul : uniquement sur demande, par le bouton Run workflow.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: vigie-pages
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Refabrication des pages
+        run: python run.py --publier
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: vigie-pages-${{ github.run_number }}
+          path: out/
+          retention-days: 30
+
+      - uses: actions/configure-pages@v6
+        id: pages
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: out/
+      - uses: actions/deploy-pages@v5

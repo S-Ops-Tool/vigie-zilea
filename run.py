@@ -206,6 +206,24 @@ def _republier_derniere():
     return vues[-1].stem
 
 
+def publier():
+    """Refabrique toutes les pages a partir du corpus deja en depot.
+
+    Publier et collecter sont deux choses distinctes. On veut souvent remettre
+    le site a jour apres un changement d'affichage, sans declencher une
+    collecte : aucun appel externe, aucune cle, aucune depense, et la cadence
+    hebdomadaire des releves n'est pas perturbee.
+    """
+    out, _ = radar.render()
+    print(f"\u2192 radar : {out}")
+    print(f"\u2192 sources et accueil : {sources_page.render()}")
+    n, f = archives_page.render()
+    print(f"\u2192 archives : {n} revue(s)")
+    repris = _republier_derniere()
+    print(f"\u2192 revue publiee : {repris or 'celle deja presente'}")
+    return 0
+
+
 def _marquer(items):
     """Retient ce qui est deja parti dans une revue.
 
@@ -258,6 +276,8 @@ if __name__ == "__main__":
     ap.add_argument("--cadence", default="weekly", choices=["daily", "weekly", "all"])
     ap.add_argument("--dry-run", action="store_true", help="aucun appel au modèle")
     ap.add_argument("--render-only", action="store_true")
+    ap.add_argument("--publier", action="store_true",
+                    help="refabrique les pages sans collecter")
     ap.add_argument("--send", action="store_true")
     ap.add_argument("--preflight", action="store_true", help="contrôle DNS seulement")
     a = ap.parse_args()
@@ -265,6 +285,8 @@ if __name__ == "__main__":
         from core import delivery
         ok, rep = delivery.preflight(); delivery.print_preflight(rep)
         sys.exit(0 if (ok or delivery.simulate()) else 1)
+    if a.publier:
+        sys.exit(publier())
     if a.send:
         sys.exit(send())
     if a.render_only:
