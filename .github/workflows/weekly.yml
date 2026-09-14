@@ -38,6 +38,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           VIATOR_API_KEY: ${{ secrets.VIATOR_API_KEY }}
+          TRIPADVISOR_API_KEY: ${{ secrets.TRIPADVISOR_API_KEY }}
         run: python run.py --cadence weekly
 
       # Un digest non envoye ne doit pas empecher la publication du radar.

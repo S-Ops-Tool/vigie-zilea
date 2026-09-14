@@ -40,6 +40,37 @@ def _articles_payload(articles, ceiling=250):
     return out
 
 
+def _reputation():
+    """Note et nombre d'avis par adherent, avec l'ecart depuis le releve precedent.
+
+    La table se construit sur les identifiants apparies, pas sur les releves :
+    un adherent suivi mais muet cette semaine doit rester visible, sinon on ne
+    voit jamais qu'il manque. Tant qu'un seul releve existe, l'ecart est nul —
+    c'est normal, la valeur nait de la serie.
+    """
+    ids = store.load_state().get("tripadvisor_ids", {}) or {}
+    av, no = store.deltas("reviews"), store.deltas("rating")
+    rows = []
+    for nom, loc in ids.items():
+        if not loc:
+            continue
+        ent = "ta:" + str(loc)
+        a, n = av.get(ent) or {}, no.get(ent) or {}
+        meta = a.get("meta") or {}
+        rows.append({
+            "nom": nom, "id": loc,
+            "avis": a.get("value"), "delta": a.get("delta"),
+            "note": n.get("value"),
+            "note_delta": n.get("delta"),
+            "depuis": a.get("since"),
+            # le lien vient du releve, jamais d'une URL reconstruite a partir de
+            # l'identifiant : une adresse fabriquee a la main finit par mentir
+            "url": meta.get("url") or "",
+        })
+    rows.sort(key=lambda r: (r["avis"] is None, -(r["avis"] or 0)))
+    return rows
+
+
 def build_payload():
     corpus = store.read_corpus()
     articles = [c for c in corpus if c["kind"] == "article"]
@@ -60,12 +91,16 @@ def build_payload():
         # disparaissaient derriere l'actualite sectorielle mondiale du jour.
         "articles": _articles_payload(articles),
         "videos": [_mark(v) for v in sorted(videos, key=lambda x: x.get("versioncreated", ""), reverse=True)[:500]],
-        "offers": sorted(offers, key=lambda x: (x.get("rating") or 0), reverse=True)[:200],
+        # l'ordre est choisi a l'ecran ; ici on garde les plus recemment reperees
+        "offers": sorted(offers, key=lambda x: (x.get("collected") or ""),
+                         reverse=True)[:200],
         "deltas": {
             "offer_count": store.deltas("offer_count"),
             "reviews": store.deltas("reviews"),
+            "rating": store.deltas("rating"),
             "views": store.deltas("views"),
         },
+        "reputation": _reputation(),
         # la taxonomie voyage avec les donnees : les libelles affiches et les
         # regles du filtre viennent du meme endroit que le classement
         "taxonomy": {

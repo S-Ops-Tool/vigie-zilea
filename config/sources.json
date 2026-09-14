@@ -402,16 +402,23 @@
     }
   ],
   "tripadvisor": {
-    "_comment": "Content API. Entree : tripadvisor.com/developers, bouton 'Log in to get started' en bas du tableau des offres ; la connexion se fait avec un compte Tripadvisor existant. Offre 'Discover' en libre-service : facturation a l'entite (une entite = un location_id renvoye), gratuit pour demarrer, a partir de 0,009 $ par entite, 10 000 appels par jour, 10 requetes par seconde, support communautaire. Inclus : details factuels, notes, resumes d'avis, 3 avis les plus recents, 5 photos. NON inclus dans Discover : le CLASSEMENT local (POI rankings), reserve a l'offre Growth sous contrat. L'affichage impose le logo et les bulles de notation a cote des donnees.",
-    "base_url": "https://api.content.tripadvisor.com/api/v1",
-    "search_path": "/location/search",
-    "details_path": "/location/{id}/details",
-    "search_suffix": "Martinique",
-    "language": "fr",
+    "_comment": "API Terra (generation 2026), en-tete x-api-key. Deux recherches distinctes et non interchangeables : /catalog/locations/search fouille tout le catalogue et sert a CONSTITUER la liste des lieux autorises ; /locations/search ne renvoie que les lieux DEJA autorises. Les fiches, avis et photos ne sont lisibles que pour les lieux inscrits dans cette liste, d'ou un premier appel qui renvoyait zero resultat sans rien signaler. L'ancienne Content API refuse les cles Terra par un 403 trompeur. Facturation a l'entite renvoyee : 'search_size' borne la depense. ATTENTION geo_name : Tripadvisor decoupe la Martinique en geographies filles (Trois-Ilets, Le Francois, Le Carbet, Les Anses-d'Arlet...). Filtrer sur geo_name=Martinique ne ramene QUE les lieux rattaches a la geographie mere et ecarte la quasi-totalite des adherents. On filtre donc par pays (MQ). La fiche catalogue /catalog/locations/{id} renvoie deja la note ET le nombre d'avis, sans passer par la liste des lieux autorises : le releve hebdomadaire n'a donc besoin d'aucune inscription prealable, une entite par adherent et par semaine.",
+    "base_url": "https://terra.tripadvisor.com/api",
+    "search_path": "/locations/search",
+    "details_path": "/locations/{id}",
+    "auth": "header",
+    "auth_header": "x-api-key",
+    "search_param": "query",
+    "search_size": 3,
+    "language": "fr-FR",
     "currency": "EUR",
-    "plan": "Discover (libre-service)",
+    "plan": "Terra Discover (libre-service)",
+    "price_per_entity_usd": 0.015,
     "daily_call_limit": 10000,
     "qps": 10,
-    "ranking_available": false
+    "catalog_search_path": "/catalog/locations/search",
+    "allowlist_path": "/allowlist",
+    "country_code": "MQ",
+    "catalog_details_path": "/catalog/locations/{id}"
   }
 }

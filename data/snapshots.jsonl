@@ -2583,3 +2583,79 @@
 {"entity": "yt:X-REvjDe7I4", "metric": "views", "value": 213, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-13T16:56:06+00:00"}
 {"entity": "yt:rUpU3AP174c", "metric": "views", "value": 336, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-13T16:56:06+00:00"}
 {"entity": "yt:IlLRsqThJJo", "metric": "views", "value": 20, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-13T16:56:06+00:00"}
+{"entity": "ta:273561", "metric": "reviews", "value": 1127, "meta": {"name": "Bakoua", "rating": 3.2, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:273561", "metric": "rating", "value": 3.2, "meta": {"name": "Bakoua"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:151621", "metric": "reviews", "value": 690, "meta": {"name": "La Batelière", "rating": 2.9, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:151621", "metric": "rating", "value": 2.9, "meta": {"name": "La Batelière"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:151865", "metric": "reviews", "value": 222, "meta": {"name": "Karibea", "rating": 3.7, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:151865", "metric": "rating", "value": 3.7, "meta": {"name": "Karibea"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:17814598", "metric": "reviews", "value": 15, "meta": {"name": "Pierre & Vacances", "rating": 3.9, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:17814598", "metric": "rating", "value": 3.9, "meta": {"name": "Pierre & Vacances"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:2092216", "metric": "reviews", "value": 810, "meta": {"name": "La Suite Villa", "rating": 4.2, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:2092216", "metric": "rating", "value": 4.2, "meta": {"name": "La Suite Villa"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:3206873", "metric": "reviews", "value": 209, "meta": {"name": "Plein Soleil", "rating": 4.3, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:3206873", "metric": "rating", "value": 4.3, "meta": {"name": "Plein Soleil"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:149836", "metric": "reviews", "value": 349, "meta": {"name": "Domaine Saint Aubin", "rating": 3.8, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:149836", "metric": "rating", "value": 3.8, "meta": {"name": "Domaine Saint Aubin"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:674470", "metric": "reviews", "value": 2045, "meta": {"name": "La Pagerie", "rating": 4.3, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:674470", "metric": "rating", "value": 4.3, "meta": {"name": "La Pagerie"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:1741041", "metric": "reviews", "value": 282, "meta": {"name": "French Coco", "rating": 4.5, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:1741041", "metric": "rating", "value": 4.5, "meta": {"name": "French Coco"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:266278", "metric": "reviews", "value": 539, "meta": {"name": "ILOMA", "rating": 4.5, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:266278", "metric": "rating", "value": 4.5, "meta": {"name": "ILOMA"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:27690416", "metric": "reviews", "value": 5, "meta": {"name": "Anse Bleue", "rating": 4.8, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:27690416", "metric": "rating", "value": 4.8, "meta": {"name": "Anse Bleue"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:5289383", "metric": "reviews", "value": 343, "meta": {"name": "Le Panoramic", "rating": 4.4, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:5289383", "metric": "rating", "value": 4.4, "meta": {"name": "Le Panoramic"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:1028792", "metric": "reviews", "value": 446, "meta": {"name": "Diamant Beach", "rating": 3.5, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:1028792", "metric": "rating", "value": 3.5, "meta": {"name": "Diamant Beach"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:11829232", "metric": "reviews", "value": 89, "meta": {"name": "Fondation Clément", "rating": 4.3, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:11829232", "metric": "rating", "value": 4.3, "meta": {"name": "Fondation Clément"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:7617589", "metric": "reviews", "value": 791, "meta": {"name": "Habitation Céron", "rating": 3.7, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:7617589", "metric": "rating", "value": 3.7, "meta": {"name": "Habitation Céron"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:147828", "metric": "reviews", "value": 5096, "meta": {"name": "Jardin de Balata", "rating": 4.5, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:147828", "metric": "rating", "value": 4.5, "meta": {"name": "Jardin de Balata"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:627903", "metric": "reviews", "value": 2539, "meta": {"name": "Savane des Esclaves", "rating": 4.5, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:627903", "metric": "rating", "value": 4.5, "meta": {"name": "Savane des Esclaves"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:1787189", "metric": "reviews", "value": 1252, "meta": {"name": "Zoo de Martinique", "rating": 4.4, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:1787189", "metric": "rating", "value": 4.4, "meta": {"name": "Zoo de Martinique"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:17438015", "metric": "reviews", "value": 85, "meta": {"name": "Mémorial de la Catastrophe de 1902", "rating": 4.2, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:17438015", "metric": "rating", "value": 4.2, "meta": {"name": "Mémorial de la Catastrophe de 1902"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:627906", "metric": "reviews", "value": 204, "meta": {"name": "Mangofil", "rating": 3.9, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:627906", "metric": "rating", "value": 3.9, "meta": {"name": "Mangofil"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:1973635", "metric": "reviews", "value": 836, "meta": {"name": "Les Ballades du Delphis", "rating": 4.7, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:1973635", "metric": "rating", "value": 4.7, "meta": {"name": "Les Ballades du Delphis"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:17550468", "metric": "reviews", "value": 1, "meta": {"name": "Martinique Access'Île", "rating": 5.0, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:17550468", "metric": "rating", "value": 5.0, "meta": {"name": "Martinique Access'Île"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:13423480", "metric": "reviews", "value": 100, "meta": {"name": "Watt Up", "rating": 4.8, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:13423480", "metric": "rating", "value": 4.8, "meta": {"name": "Watt Up"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:29016500", "metric": "reviews", "value": 47, "meta": {"name": "Le Roi Mongin", "rating": 5.0, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:29016500", "metric": "rating", "value": 5.0, "meta": {"name": "Le Roi Mongin"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:27156594", "metric": "reviews", "value": 7, "meta": {"name": "Alwego", "rating": 2.4, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:27156594", "metric": "rating", "value": 2.4, "meta": {"name": "Alwego"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:33031119", "metric": "reviews", "value": 1, "meta": {"name": "Jumbo Car", "rating": 5.0, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:33031119", "metric": "rating", "value": 5.0, "meta": {"name": "Jumbo Car"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:2047669", "metric": "reviews", "value": 1244, "meta": {"name": "Le Petibonum", "rating": 3.8, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:2047669", "metric": "rating", "value": 3.8, "meta": {"name": "Le Petibonum"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:9610527", "metric": "reviews", "value": 334, "meta": {"name": "Simon Hôtel", "rating": 3.6, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:9610527", "metric": "rating", "value": 3.6, "meta": {"name": "Simon Hôtel"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:252659", "metric": "reviews", "value": 232, "meta": {"name": "Résidence Océane", "rating": 3.9, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:252659", "metric": "rating", "value": 3.9, "meta": {"name": "Résidence Océane"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:3838976", "metric": "reviews", "value": 98, "meta": {"name": "Village Créole", "rating": 3.5, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:3838976", "metric": "rating", "value": 3.5, "meta": {"name": "Village Créole"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:253288", "metric": "reviews", "value": 3452, "meta": {"name": "Habitation Clément", "rating": 4.4, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:253288", "metric": "rating", "value": 4.4, "meta": {"name": "Habitation Clément"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:7824974", "metric": "reviews", "value": 173, "meta": {"name": "Habitation Saint-Étienne", "rating": 4.2, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:7824974", "metric": "rating", "value": 4.2, "meta": {"name": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:3536448", "metric": "reviews", "value": 333, "meta": {"name": "Domaine d'Émeraude", "rating": 4.5, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:3536448", "metric": "rating", "value": 4.5, "meta": {"name": "Domaine d'Émeraude"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:152604", "metric": "reviews", "value": 49, "meta": {"name": "Parc Naturel Régional", "rating": 4.4, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:152604", "metric": "rating", "value": 4.4, "meta": {"name": "Parc Naturel Régional"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:11876883", "metric": "reviews", "value": 261, "meta": {"name": "Diamond Rock Catamaran", "rating": 4.8, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:11876883", "metric": "rating", "value": 4.8, "meta": {"name": "Diamond Rock Catamaran"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:9835883", "metric": "reviews", "value": 450, "meta": {"name": "Beyond the Beach", "rating": 4.6, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:9835883", "metric": "rating", "value": 4.6, "meta": {"name": "Beyond the Beach"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:12571703", "metric": "reviews", "value": 65, "meta": {"name": "Captain Marcson", "rating": 4.9, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:12571703", "metric": "rating", "value": 4.9, "meta": {"name": "Captain Marcson"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:3810251", "metric": "reviews", "value": 49, "meta": {"name": "Le Brédas", "rating": 4.2, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "ta:3810251", "metric": "rating", "value": 4.2, "meta": {"name": "Le Brédas"}, "ts": "2026-09-14T16:11:11+00:00"}

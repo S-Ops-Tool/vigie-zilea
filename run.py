@@ -73,6 +73,10 @@ def run(cadence, dry_run=False):
                        lambda g, s: f"{len(g)} activités, {len(s)} relevés")
         new_items += g; snaps += s; checks += h
 
+        g, s, h = step("réputation", tripadvisor.collect,
+                       lambda g, s: f"{len(s)} relevés d'avis et de notes")
+        new_items += g; snaps += s; checks += h
+
     # le theme est attribue AVANT l'ecriture, sinon l'enrichissement ne survit
     # pas au run : le radar relit corpus.jsonl, pas la memoire du processus
     for it in new_items:

@@ -54,5 +54,54 @@
     "article:f0282f650a1a7bfd",
     "article:fa638a97cbeaaca0",
     "article:fc5faeaa7f2c3733"
-  ]
+  ],
+  "tripadvisor_ids": {
+    "Bakoua": 273561,
+    "Habitation Céron": 7617589,
+    "La Batelière": 151621,
+    "Karibea": 151865,
+    "Club Med Les Boucaniers": 28010226,
+    "Pierre & Vacances": 17814598,
+    "La Suite Villa": 2092216,
+    "Plein Soleil": 3206873,
+    "Domaine Saint Aubin": 149836,
+    "La Pagerie": 674470,
+    "French Coco": 1741041,
+    "ILOMA": 266278,
+    "Anse Bleue": 27690416,
+    "Le Panoramic": 5289383,
+    "Diamant Beach": 1028792,
+    "Fondation Clément": 11829232,
+    "Jardin de Balata": 147828,
+    "Savane des Esclaves": 627903,
+    "Zoo de Martinique": 1787189,
+    "Mémorial de la Catastrophe de 1902": 17438015,
+    "Mangofil": 627906,
+    "Les Ballades du Delphis": 1973635,
+    "Excursions Martinique": 27741175,
+    "Martinique Access'Île": 17550468,
+    "Watt Up": 13423480,
+    "Le Roi Mongin": 29016500,
+    "Alwego": 27156594,
+    "Jumbo Car": 33031119,
+    "Le Petibonum": 2047669,
+    "Simon Hôtel": 9610527,
+    "Résidence Océane": 252659,
+    "Village Créole": 3838976,
+    "Habitation Clément": 253288,
+    "Habitation Saint-Étienne": 7824974,
+    "Domaine d'Émeraude": 3536448,
+    "Parc Naturel Régional": 152604,
+    "Diamond Rock Catamaran": 11876883,
+    "Beyond the Beach": 9835883,
+    "Captain Marcson": 12571703,
+    "Le Brédas": 3810251
+  },
+  "tripadvisor_doubtful": {
+    "Cap Est Lagoon": 27100407,
+    "Squash Hôtel": 151865
+  },
+  "tripadvisor_a_trancher": {
+    "Valmenière": 27997351
+  }
 }
