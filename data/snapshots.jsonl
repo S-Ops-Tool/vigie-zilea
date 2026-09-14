@@ -3160,3 +3160,504 @@
 {"entity": "ta:12571703", "metric": "rating", "value": 4.9, "meta": {"name": "Captain Marcson"}, "ts": "2026-09-14T16:11:11+00:00"}
 {"entity": "ta:3810251", "metric": "reviews", "value": 49, "meta": {"name": "Le Brédas", "rating": 4.2, "url": "", "source": "appariement"}, "ts": "2026-09-14T16:11:11+00:00"}
 {"entity": "ta:3810251", "metric": "rating", "value": 4.2, "meta": {"name": "Le Brédas"}, "ts": "2026-09-14T16:11:11+00:00"}
+{"entity": "yt:z0Au4lLh00I", "metric": "views", "value": 165, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:KQYUMZyIZa4", "metric": "views", "value": 223, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:kvIppiPAato", "metric": "views", "value": 216, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:KQp6Uaot1w4", "metric": "views", "value": 116, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:cBwV6QFxkA4", "metric": "views", "value": 193, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:CNLsCrPxw3g", "metric": "views", "value": 120, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:J7olICZQxdk", "metric": "views", "value": 56, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:0Vuwgb4cn4Q", "metric": "views", "value": 75, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:x6FUKDGFu9Q", "metric": "views", "value": 184, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:GNFpYy1nvEQ", "metric": "views", "value": 125, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ovDB05lI3AY", "metric": "views", "value": 375, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:oxAb_fbglis", "metric": "views", "value": 73, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5LQIrt4ZKtE", "metric": "views", "value": 38, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:bYRR3dVqSuo", "metric": "views", "value": 159, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:_BJMIeoJl9s", "metric": "views", "value": 95, "meta": {"channel": "Parc Naturel Régional de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zSi7dcCGPU4", "metric": "views", "value": 91, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1f2fIROlxIE", "metric": "views", "value": 141, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:DImBzpjtiRg", "metric": "views", "value": 12, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:w23GbI09jUU", "metric": "views", "value": 1471545, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:w5ukE1O58rU", "metric": "views", "value": 38529, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:lXYDsAc_8gg", "metric": "views", "value": 104, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:KTlyYemUfAI", "metric": "views", "value": 52, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:dL0pzv4K5L4", "metric": "views", "value": 111, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:2dT0dzLkk0g", "metric": "views", "value": 42, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:3e5ZBpgQrqs", "metric": "views", "value": 313, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Er6Ukd7gpyg", "metric": "views", "value": 36, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:7N6XiKLZWlg", "metric": "views", "value": 47, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:_OQZQ8imroY", "metric": "views", "value": 20, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:PfD5fNrAXMo", "metric": "views", "value": 35, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:pUsUU0XwjLU", "metric": "views", "value": 19, "meta": {"channel": "Fondation Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:KYU74ZcLKrQ", "metric": "views", "value": 115, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8WI7B_Ar__c", "metric": "views", "value": 270, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:lfFIqhHBmWY", "metric": "views", "value": 28, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wtPBC0G3X64", "metric": "views", "value": 15, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:vz0MRiHvBIA", "metric": "views", "value": 20, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:GoNROaJis30", "metric": "views", "value": 490, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5MfUi8bufds", "metric": "views", "value": 34, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:njZHpROlpTs", "metric": "views", "value": 49, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:YL9EnMJICWc", "metric": "views", "value": 38, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:CsXcYHIlpdg", "metric": "views", "value": 10, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:EeZqOtMRgRQ", "metric": "views", "value": 36, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:W1G6OF5pyeA", "metric": "views", "value": 93, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:6JdKkPkiY2Y", "metric": "views", "value": 21035, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:-VMRBSLbcUU", "metric": "views", "value": 760, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zjxtcweGCX0", "metric": "views", "value": 194, "meta": {"channel": "Atao Plongée (chaîne du gérant)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wdRSl1oOxcs", "metric": "views", "value": 2592, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Qi1C2SdCPFM", "metric": "views", "value": 194, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8Wsq3utqzLo", "metric": "views", "value": 199, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:kd1p-2dE3DA", "metric": "views", "value": 418, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:XS3pTHjGxdg", "metric": "views", "value": 59, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:MZ4HiPoRxOw", "metric": "views", "value": 501, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:SFE7eeFQX94", "metric": "views", "value": 159, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:531YNRZLYhg", "metric": "views", "value": 158, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:leSCtfiqgJM", "metric": "views", "value": 414, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8rQ34NsmeZA", "metric": "views", "value": 116, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:F27nn5LHBUE", "metric": "views", "value": 71, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:LfLtrLwQcjg", "metric": "views", "value": 58, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:GM2G1gqjnCU", "metric": "views", "value": 74, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:VoflGX2cIes", "metric": "views", "value": 35, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:c3LOthm5mkg", "metric": "views", "value": 20, "meta": {"channel": "Le Petibonum"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ssFLXJAiQqg", "metric": "views", "value": 481, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1T5qQMQa8wM", "metric": "views", "value": 227, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:d23aaBU99nQ", "metric": "views", "value": 172, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Kp5unOcXSvA", "metric": "views", "value": 164, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5i3JVDkSCiM", "metric": "views", "value": 250, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:dHKhUQ4WjIo", "metric": "views", "value": 239, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:dPcq3bfYDt8", "metric": "views", "value": 166, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QCuwFSnO7QE", "metric": "views", "value": 345, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:xrWVGOBd6Eg", "metric": "views", "value": 409, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:pI7IMwIAIBg", "metric": "views", "value": 323, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:-UWR1b7CqbY", "metric": "views", "value": 349, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:vCQckfmlw0g", "metric": "views", "value": 219, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:fl25-2q1HT4", "metric": "views", "value": 1515, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:J--5CM2RVwg", "metric": "views", "value": 298, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:lOYFm_r5xxY", "metric": "views", "value": 943, "meta": {"channel": "Habitation Saint-Étienne"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1R5Zl4uesIw", "metric": "views", "value": 15, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:-_a3nRjg5dM", "metric": "views", "value": 84, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:V4MWeQ9_0TU", "metric": "views", "value": 89321, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:oVCbRTQ8PgA", "metric": "views", "value": 115973, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:9P3-Xf0RlEw", "metric": "views", "value": 177561, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:yy3TPHTY4iw", "metric": "views", "value": 182597, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QfxkpJo-_0M", "metric": "views", "value": 26879, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:FJzo-fELXBk", "metric": "views", "value": 8, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:RxyvGcaQ-uI", "metric": "views", "value": 1664, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:vrL7fTOc2r4", "metric": "views", "value": 49580, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:nN9IyxrhMqU", "metric": "views", "value": 94, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:U80vLufS1Os", "metric": "views", "value": 316, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8IVDX3kF2Gg", "metric": "views", "value": 1430, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:hHQDh14UqGk", "metric": "views", "value": 297, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:UmcYUE5s7E8", "metric": "views", "value": 1101, "meta": {"channel": "Karibea Hôtels & Résidences"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ob_wXxKeZHE", "metric": "views", "value": 25639, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:4cq7izykAFM", "metric": "views", "value": 117273, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:FAwbNcoPRps", "metric": "views", "value": 21, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:cT7vIafJCmo", "metric": "views", "value": 8, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:rfba4eizSMM", "metric": "views", "value": 11, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:mASnVtPcM0A", "metric": "views", "value": 10, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:B7RSzxO6iPE", "metric": "views", "value": 115671, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:qg6BFZDI3aI", "metric": "views", "value": 559146, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:UzcqDFpohdA", "metric": "views", "value": 716211, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:_mDStgZpehc", "metric": "views", "value": 154086, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:BkHIMgjvEtE", "metric": "views", "value": 106834, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:9s89AZbBng0", "metric": "views", "value": 147422, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:mIXmsT7LiUM", "metric": "views", "value": 3650, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:T4S_t-hHq0s", "metric": "views", "value": 374879, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:kiOaK72Uktw", "metric": "views", "value": 5807, "meta": {"channel": "Rhum Clément"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ff07ABUyiCk", "metric": "views", "value": 0, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:UCEKfzBOlao", "metric": "views", "value": 902, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Ip7CzasMgEE", "metric": "views", "value": 152, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:MMQs55qvLc8", "metric": "views", "value": 192, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ymXwhkGHwok", "metric": "views", "value": 60, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:3JyFLPiVo8c", "metric": "views", "value": 61, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:SyGvIkUX3BA", "metric": "views", "value": 210, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:LqqrplN6agY", "metric": "views", "value": 31, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8FwaqnkdMlA", "metric": "views", "value": 2030, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:BmXF42fi4vc", "metric": "views", "value": 63, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Qh-Cl7BNNXI", "metric": "views", "value": 51, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:X9UwY75a9fg", "metric": "views", "value": 477, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:KfeUtSBYhr4", "metric": "views", "value": 537, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5hSI_2CU0yk", "metric": "views", "value": 53, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:6AhFZ3Pa6lU", "metric": "views", "value": 188, "meta": {"channel": "Carfully"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:z_OnStT_1Uk", "metric": "views", "value": 663, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:OUMjav9gsF0", "metric": "views", "value": 190, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wDLlPXTgIy0", "metric": "views", "value": 861, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:EM2di9s_YFo", "metric": "views", "value": 325, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:LjaErAd8alY", "metric": "views", "value": 1601, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:vNsm59gbtAc", "metric": "views", "value": 976, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:pn9uCVjuba4", "metric": "views", "value": 3741, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Hhc71c3jLpw", "metric": "views", "value": 95, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:qzNtdhlMAVU", "metric": "views", "value": 418, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:e_UKtXhbQPM", "metric": "views", "value": 1077, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:dyQjcopQyb4", "metric": "views", "value": 39, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:oAWMaJumgDc", "metric": "views", "value": 147, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ei8QLyJf8_A", "metric": "views", "value": 202, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:YxCpIo4Dokg", "metric": "views", "value": 236, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:mjgpvAust1o", "metric": "views", "value": 1382, "meta": {"channel": "Beyond the Beach"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:fDkN1wyzVbI", "metric": "views", "value": 91, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QD54HGl3O6U", "metric": "views", "value": 70, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:yebH5LPPF00", "metric": "views", "value": 95, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:va8h-BKZO2E", "metric": "views", "value": 156, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zDSJggOIG-0", "metric": "views", "value": 393, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:WDhso6HzQQY", "metric": "views", "value": 947, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:kuQSNcjdy9Y", "metric": "views", "value": 1405, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:WtLBvJhpdE0", "metric": "views", "value": 349, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:-6csHcI1Ybw", "metric": "views", "value": 914, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Wjm8v_kmotw", "metric": "views", "value": 216, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:lyTn8DdFPv8", "metric": "views", "value": 39, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:aSvcKTdtuPw", "metric": "views", "value": 209, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QhwKHkC94WY", "metric": "views", "value": 128, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ipcSF33UA18", "metric": "views", "value": 396, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:L-qUI_sMMJ0", "metric": "views", "value": 262, "meta": {"channel": "Europcar Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:RRRa0bFtV4o", "metric": "views", "value": 45484, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ObZyMCgwIo4", "metric": "views", "value": 240, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:7BCfmwSdq1o", "metric": "views", "value": 43841, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:SwiO9Eg6fAc", "metric": "views", "value": 44611, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:3zVSm3exGiI", "metric": "views", "value": 43692, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:FUg2S625Fjc", "metric": "views", "value": 41903, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:cB-__wAh89s", "metric": "views", "value": 556090, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:102Gql-TG6s", "metric": "views", "value": 15337, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:aT5eHAzea8M", "metric": "views", "value": 11558, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:sNcWv23kEiU", "metric": "views", "value": 107481, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:97NTdHKyGE8", "metric": "views", "value": 363190, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:RnRjo29xScY", "metric": "views", "value": 164, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:2syvzHBeKFc", "metric": "views", "value": 57144, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:98vSGVWEx0A", "metric": "views", "value": 34193, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ADDrX0OxobQ", "metric": "views", "value": 306, "meta": {"channel": "Zoo de Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:_TKfzbQECBs", "metric": "views", "value": 294, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Y2GA69SIzRw", "metric": "views", "value": 11, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:4rd8_GvsDis", "metric": "views", "value": 89, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:70NemBUVhq0", "metric": "views", "value": 8, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:oJVK00RLv0s", "metric": "views", "value": 3, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5X7E7LCunMI", "metric": "views", "value": 33, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:i56KPfDx0Wc", "metric": "views", "value": 15, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:4uo1i_5xnLE", "metric": "views", "value": 28, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:9jeMCngtWbs", "metric": "views", "value": 27, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:22kYk4L1JPo", "metric": "views", "value": 139, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:7h1zYgfVnlE", "metric": "views", "value": 407, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QVgYg1FdXAw", "metric": "views", "value": 103, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:RGUU8nxBk9w", "metric": "views", "value": 250, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:txkvHeTR2Aw", "metric": "views", "value": 22, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:2W3DMsAtE4Q", "metric": "views", "value": 641, "meta": {"channel": "Cœur des Îles"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5-eQWspXaHo", "metric": "views", "value": 969, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8x916D_2-JM", "metric": "views", "value": 988, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:khLuVYSLCYA", "metric": "views", "value": 143, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:M9yxrjZ3U_0", "metric": "views", "value": 112, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:78Xg4AfE8-w", "metric": "views", "value": 451, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:aU9v4u2LFlo", "metric": "views", "value": 228, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:6WvdcvEog7s", "metric": "views", "value": 503, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:CeOT4RwNbuQ", "metric": "views", "value": 307, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Q9V89Opx9Eo", "metric": "views", "value": 788, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:CDffdfcIwRY", "metric": "views", "value": 685, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:p78WN-jh-1s", "metric": "views", "value": 681, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:7uS93b9NtQM", "metric": "views", "value": 222066, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Fk6N93fQuxI", "metric": "views", "value": 153, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1jWxVbM8eec", "metric": "views", "value": 298, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:jfJJYuKs0j8", "metric": "views", "value": 282, "meta": {"channel": "Jumbo Car Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:sWOXLNZI0Ng", "metric": "views", "value": 272, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:xeEjVD4-wBw", "metric": "views", "value": 340, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8Z75pn5ypxo", "metric": "views", "value": 1967, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zAh79-zhv0Y", "metric": "views", "value": 314, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:cWnR7jUKbEY", "metric": "views", "value": 15429, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:X9LzfoL6zII", "metric": "views", "value": 144, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:VKK8aDL1W0g", "metric": "views", "value": 5385, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1AomQqJaT0k", "metric": "views", "value": 3731, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:d1KaD-d1a6A", "metric": "views", "value": 325, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:0JK33WZ9KpE", "metric": "views", "value": 9261, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:fXN7Kb9JyV0", "metric": "views", "value": 191, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:fsPHPT5dJEI", "metric": "views", "value": 303, "meta": {"channel": "Watt Up"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:2QSFl_soU0w", "metric": "views", "value": 1188, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:z7oigqM2uWk", "metric": "views", "value": 238, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:P5JrsRbEC28", "metric": "views", "value": 938, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:qOHP_Lvoumc", "metric": "views", "value": 433, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:19XIP2bI1dw", "metric": "views", "value": 1024, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:xNV_Qh2QUVU", "metric": "views", "value": 19847, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:40z2ymJCJ7I", "metric": "views", "value": 1167, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:aDyuRPWQc2g", "metric": "views", "value": 470, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:iFRz2fNl0Rk", "metric": "views", "value": 263, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:PGLTqgbnDik", "metric": "views", "value": 3664, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:gF1cEFbMrbU", "metric": "views", "value": 3805, "meta": {"channel": "Captain Marcson"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:PUS7KONx2-E", "metric": "views", "value": 471, "meta": {"channel": "Plantation Trois Rivières"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:82339RXXzbM", "metric": "views", "value": 73, "meta": {"channel": "Plantation Trois Rivières"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:LTIO1w3m4R8", "metric": "views", "value": 17, "meta": {"channel": "Plantation Trois Rivières"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:cpDepxozREQ", "metric": "views", "value": 20, "meta": {"channel": "Plantation Trois Rivières"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:dS46DAeJfVs", "metric": "views", "value": 17, "meta": {"channel": "Plantation Trois Rivières"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:DBDxNq2tKrw", "metric": "views", "value": 48, "meta": {"channel": "Plantation Trois Rivières"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5WGDd7r6LWI", "metric": "views", "value": 2823433, "meta": {"channel": "Plantation Trois Rivières"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:IsVoPktse4E", "metric": "views", "value": 150, "meta": {"channel": "Plantation Trois Rivières"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:6NXfa7ErQUw", "metric": "views", "value": 199, "meta": {"channel": "Plantation Trois Rivières"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:EOyfVv71seQ", "metric": "views", "value": 17, "meta": {"channel": "Jardin de Balata"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:hp1eMiMnCj4", "metric": "views", "value": 28553, "meta": {"channel": "Jardin de Balata"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wYn-mOj2qL8", "metric": "views", "value": 846683, "meta": {"channel": "Jardin de Balata"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8_xAkpGsdSk", "metric": "views", "value": 75, "meta": {"channel": "Jardin de Balata"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:EXdfT9Cg4I8", "metric": "views", "value": 41, "meta": {"channel": "Jardin de Balata"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:rwEnZm79Rvk", "metric": "views", "value": 4075, "meta": {"channel": "Jardin de Balata"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ZcEp8mSuqa8", "metric": "views", "value": 5990, "meta": {"channel": "Jardin de Balata"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:enZPebR9Cug", "metric": "views", "value": 137, "meta": {"channel": "Jardin de Balata"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:U-hqRTU9Gxw", "metric": "views", "value": 92, "meta": {"channel": "Jardin de Balata"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:rXY9lSmDV2c", "metric": "views", "value": 26902, "meta": {"channel": "Savane des Esclaves"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8REu0UON5RE", "metric": "views", "value": 3054, "meta": {"channel": "Savane des Esclaves"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QvOuUGrJ87M", "metric": "views", "value": 1077, "meta": {"channel": "Savane des Esclaves"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ripxhJL9YAo", "metric": "views", "value": 1302, "meta": {"channel": "Savane des Esclaves"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:aGdTt5hBzSc", "metric": "views", "value": 1005, "meta": {"channel": "Savane des Esclaves"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:09zIbTQLrAY", "metric": "views", "value": 1069, "meta": {"channel": "Savane des Esclaves"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:sclVXuXOuwg", "metric": "views", "value": 1234, "meta": {"channel": "Savane des Esclaves"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:q0msDpqwfbg", "metric": "views", "value": 9062, "meta": {"channel": "Savane des Esclaves"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Ae8R5kCnhwQ", "metric": "views", "value": 34309, "meta": {"channel": "Savane des Esclaves"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wk9CYQVSUNA", "metric": "views", "value": 142, "meta": {"channel": "Boucaniers Diving"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:uNitdbZyyA8", "metric": "views", "value": 131, "meta": {"channel": "Boucaniers Diving"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:9jIndnmvL4E", "metric": "views", "value": 23, "meta": {"channel": "Boucaniers Diving"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:kB9w54rZJMg", "metric": "views", "value": 21, "meta": {"channel": "Boucaniers Diving"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:e9cDn0wwcV4", "metric": "views", "value": 104, "meta": {"channel": "Boucaniers Diving"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:e9phGkR71nA", "metric": "views", "value": 37, "meta": {"channel": "Boucaniers Diving"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:9WH4G-mMrM0", "metric": "views", "value": 50, "meta": {"channel": "Boucaniers Diving"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:gP-qwKZZj4g", "metric": "views", "value": 1148, "meta": {"channel": "Hôtel La Pagerie"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:00feDuA4WGQ", "metric": "views", "value": 360, "meta": {"channel": "Hôtel La Pagerie"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:4ZJLL_NM5CE", "metric": "views", "value": 1116, "meta": {"channel": "Hôtel La Pagerie"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:tzigINFpiOk", "metric": "views", "value": 906, "meta": {"channel": "Hôtel La Pagerie"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:UAZtbw_ZUuQ", "metric": "views", "value": 1512, "meta": {"channel": "Hôtel La Pagerie"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:i28qmsKVpQ4", "metric": "views", "value": 7623, "meta": {"channel": "Hôtel La Pagerie"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:orJuTaVYyL0", "metric": "views", "value": 910, "meta": {"channel": "Hôtel La Pagerie"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:hFkAGyX_Qac", "metric": "views", "value": 20936, "meta": {"channel": "Hôtel Bakoua"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:UAOucHlE13g", "metric": "views", "value": 776, "meta": {"channel": "Hôtel Bakoua"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:BxnoS4G_Qr8", "metric": "views", "value": 9620, "meta": {"channel": "Hôtel Bakoua"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:oQd0VnzwIec", "metric": "views", "value": 359, "meta": {"channel": "La Suite Villa"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:tDob2HZesSQ", "metric": "views", "value": 11341, "meta": {"channel": "La Suite Villa"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:WjrCcJciAek", "metric": "views", "value": 2710, "meta": {"channel": "La Suite Villa"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:jd1SJpuDnss", "metric": "views", "value": 7126, "meta": {"channel": "Domaine Saint Aubin"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:09evR9M2mXI", "metric": "views", "value": 5647, "meta": {"channel": "Domaine Saint Aubin"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:_6Wq3_duMXw", "metric": "views", "value": 15695, "meta": {"channel": "Cap Est Lagoon Resort"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:gfm7UzvYZB4", "metric": "views", "value": 1496, "meta": {"channel": "Simon Hôtel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:gHJpviLkL9A", "metric": "views", "value": 174, "meta": {"channel": "Simon Hôtel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:mdqdEuOywoo", "metric": "views", "value": 23, "meta": {"channel": "Le Panoramic"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:SSHOvPV9m1g", "metric": "views", "value": 882, "meta": {"channel": "Le Panoramic"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:dowYQ9FDL8I", "metric": "views", "value": 1573, "meta": {"channel": "French Coco"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:kMI8-qFCiW4", "metric": "views", "value": 448, "meta": {"channel": "French Coco"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Nu1spbF867Y", "metric": "views", "value": 162, "meta": {"channel": "French Coco"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:faiZIPVOAss", "metric": "views", "value": 1230, "meta": {"channel": "Habitation Céron"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:XMnL19Nxycs", "metric": "views", "value": 473, "meta": {"channel": "Mangofil"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wrRK0hk_7A4", "metric": "views", "value": 5620, "meta": {"channel": "Mangofil"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:UzyUlOscODw", "metric": "views", "value": 385, "meta": {"channel": "Le Roi Mongin"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:gxUkAKjDUcA", "metric": "views", "value": 617, "meta": {"channel": "Le Roi Mongin"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:a9e1W8vEQls", "metric": "views", "value": 951, "meta": {"channel": "Le Roi Mongin"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:w1tCPKTFT58", "metric": "views", "value": 0, "meta": {"channel": "OT Sud Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5QNPHlBSZ6k", "metric": "views", "value": 7, "meta": {"channel": "OT Sud Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QCuN27yxzOM", "metric": "views", "value": 1317, "meta": {"channel": "OT Sud Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:dllmp_uFODY", "metric": "views", "value": 13, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:JzB9gAf2giU", "metric": "views", "value": 24, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:-k3Aj31nq5I", "metric": "views", "value": 77, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:3BNYcoBHPGs", "metric": "views", "value": 47, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:uEyGyjJZr9k", "metric": "views", "value": 54, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:xcyiGVW5KWE", "metric": "views", "value": 98, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:UguHenUXU2I", "metric": "views", "value": 54, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:lFrdt6CCipg", "metric": "views", "value": 24, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:kBH3GBGac6o", "metric": "views", "value": 801, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:x-XcXHIRSA4", "metric": "views", "value": 160, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:2kZM6o9QyAI", "metric": "views", "value": 44, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:89RVVu4iDhU", "metric": "views", "value": 25, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5qnnsAm78Dw", "metric": "views", "value": 37, "meta": {"channel": "OT Centre Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:hBYC1I4-TIM", "metric": "views", "value": 220, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:T3ts4VRLs74", "metric": "views", "value": 2150, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:qlHrq0zzgzw", "metric": "views", "value": 461, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Jsa0EW8zShY", "metric": "views", "value": 558, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:k-2eQdIj4xk", "metric": "views", "value": 120, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ACEJuIFNoxU", "metric": "views", "value": 263, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:eo02qbXmU68", "metric": "views", "value": 58, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zJXYxvx0GN8", "metric": "views", "value": 47, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:VC-H3DoFAok", "metric": "views", "value": 48, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:7c5tyMO92fM", "metric": "views", "value": 56, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:_sjOdc0qUQQ", "metric": "views", "value": 48, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:JCnVwF4RQpA", "metric": "views", "value": 40, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:6egC4I-E-e4", "metric": "views", "value": 72, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:jSCeXT-00uQ", "metric": "views", "value": 89, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:E8rugQGQ6vQ", "metric": "views", "value": 60, "meta": {"channel": "La Martinique (CMT)"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wf80-_QOHSo", "metric": "views", "value": 22, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zvVOUQGtbTM", "metric": "views", "value": 27, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:G8JisrZnVPc", "metric": "views", "value": 25, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:20U9qg_FCdk", "metric": "views", "value": 4, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Z8ZL2OBXBBA", "metric": "views", "value": 60, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:2gIK0K17mOM", "metric": "views", "value": 62, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ANL7UbDIrlg", "metric": "views", "value": 23, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:W1_5U77L0Cs", "metric": "views", "value": 117, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8hQDUd8wUYk", "metric": "views", "value": 48, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:UyctjrrXtBQ", "metric": "views", "value": 50, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Ftzj8GfuDlU", "metric": "views", "value": 75, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ZFEHncf_I18", "metric": "views", "value": 46, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:_zG2RsINAmI", "metric": "views", "value": 16, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:9BbfD1mRTjk", "metric": "views", "value": 27, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:P2PwKwYm-CI", "metric": "views", "value": 30, "meta": {"channel": "ABC Dive Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:nKhzPjwBd6g", "metric": "views", "value": 0, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:aJaijD0dAv4", "metric": "views", "value": 1, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:PAwYzzlpIEo", "metric": "views", "value": 3, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:g3ikx8J30FU", "metric": "views", "value": 3, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:tA5QEC7iiec", "metric": "views", "value": 8, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Uu3HUIqnfs0", "metric": "views", "value": 2, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:M-l8qryIfWU", "metric": "views", "value": 11, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:tWBfnSkZbc0", "metric": "views", "value": 0, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:mR-QP96dKkw", "metric": "views", "value": 4, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:b4mdh2I4cyk", "metric": "views", "value": 3, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Vdi8NBxNGyA", "metric": "views", "value": 1, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:xXEma37ALSU", "metric": "views", "value": 19, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:UhQIXOFitn0", "metric": "views", "value": 10, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:plveOjlCIq4", "metric": "views", "value": 162, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:0wJZAijJQqI", "metric": "views", "value": 2, "meta": {"channel": "Indalo Space"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:bakiRcMm9m0", "metric": "views", "value": 245, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Dgb80KOPrEg", "metric": "views", "value": 63, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:lHoC8Tb0nkY", "metric": "views", "value": 413, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Klug6asWEXM", "metric": "views", "value": 145, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:SSj25tHCR5A", "metric": "views", "value": 81, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:hD0jWaO6Euo", "metric": "views", "value": 60, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:H0jgnnXyGTM", "metric": "views", "value": 178, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:JdjURiyQqTs", "metric": "views", "value": 32, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:3InwaniO9cQ", "metric": "views", "value": 104, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wj3dOvTKdoE", "metric": "views", "value": 26, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:PpCL34gTc2g", "metric": "views", "value": 60, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:OxIITLPZ_4c", "metric": "views", "value": 24, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:DldpNpfqaXc", "metric": "views", "value": 10, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:OS1AkwaOpKE", "metric": "views", "value": 14, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:GYMDmCzxkJ0", "metric": "views", "value": 23, "meta": {"channel": "Alpha Plongée Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8Vp3mKMz1H0", "metric": "views", "value": 776, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zumsY3i2rnU", "metric": "views", "value": 3096, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zq7E5YBVPMA", "metric": "views", "value": 5079, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:HCD65d6js1M", "metric": "views", "value": 9520, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8VlA8MXC2fw", "metric": "views", "value": 3985, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:h9a54Te25Pc", "metric": "views", "value": 17663, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:huGWSSY60K8", "metric": "views", "value": 8358, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:etFdhtpOxW4", "metric": "views", "value": 5696, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:x6vwktOrpmA", "metric": "views", "value": 24968, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QO7rEvZh9AQ", "metric": "views", "value": 517, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:TcBShqqUxuM", "metric": "views", "value": 3294, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:oheupkxc_9Y", "metric": "views", "value": 1369, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:eS57frdqXI8", "metric": "views", "value": 2093, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:sTcP7Vax8Po", "metric": "views", "value": 126, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:mPkv1XmGNAA", "metric": "views", "value": 1353, "meta": {"channel": "Martinique Travel"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:2E0IlNTzosI", "metric": "views", "value": 213523, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1QdElB_nTjU", "metric": "views", "value": 178484, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1FR7dTR8exw", "metric": "views", "value": 173440, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:aFKWjLKTMzk", "metric": "views", "value": 175403, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:xbmdbfFkrzM", "metric": "views", "value": 181776, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:aljdM_YMFpo", "metric": "views", "value": 49, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:PZKJNV2xXaU", "metric": "views", "value": 37103, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:a1CX28wYA2Y", "metric": "views", "value": 43144, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:22xko8Ul1Ec", "metric": "views", "value": 43587, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:kcFWdc9XDlg", "metric": "views", "value": 50855, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:gu1oveATHeA", "metric": "views", "value": 40675, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:sQ6drW8ULdQ", "metric": "views", "value": 11851, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ULF-gCrbJQY", "metric": "views", "value": 55634, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:asEMzcr8JcY", "metric": "views", "value": 8400, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:E9dk8VHMkmM", "metric": "views", "value": 20209, "meta": {"channel": "Cœur Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:T2pwMNTINdU", "metric": "views", "value": 1161, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:s1xK1RUtAfw", "metric": "views", "value": 337, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:S6TQVtcB0Do", "metric": "views", "value": 1101, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Gpai1Lp1v9A", "metric": "views", "value": 1281, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:entqbUG9Kj0", "metric": "views", "value": 1314, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:h7S6hEj-9XQ", "metric": "views", "value": 1855, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:9zc432ea9eM", "metric": "views", "value": 1405, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zY3qL369zZM", "metric": "views", "value": 2292, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5sKYztTYC34", "metric": "views", "value": 711, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:0VPIr0omXPo", "metric": "views", "value": 44, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:oWXQIMj8uPY", "metric": "views", "value": 8, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:s3thiKvpPT0", "metric": "views", "value": 41, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:8Tl9YPxZEQM", "metric": "views", "value": 704, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:KjNIjuzX_Do", "metric": "views", "value": 325, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:A9QPz-rysog", "metric": "views", "value": 36, "meta": {"channel": "Côte au Vent"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:hyHoPARmnAY", "metric": "views", "value": 21, "meta": {"channel": "Les Marcheurs Aguerris"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:IGQJLWOO_g0", "metric": "views", "value": 7, "meta": {"channel": "Les Marcheurs Aguerris"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:PfF-dOBryWc", "metric": "views", "value": 10, "meta": {"channel": "Les Marcheurs Aguerris"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:uF3p3Ird1C0", "metric": "views", "value": 21, "meta": {"channel": "Les Marcheurs Aguerris"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1m6zHZPSyCk", "metric": "views", "value": 117, "meta": {"channel": "Les Marcheurs Aguerris"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Q-fVqCRyCwk", "metric": "views", "value": 104, "meta": {"channel": "Les Marcheurs Aguerris"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:BvzgTJT2WRk", "metric": "views", "value": 15, "meta": {"channel": "Les Marcheurs Aguerris"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:-p3TgbqLP1Y", "metric": "views", "value": 33, "meta": {"channel": "Les Marcheurs Aguerris"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:hTrcET_WI1A", "metric": "views", "value": 45, "meta": {"channel": "Les Marcheurs Aguerris"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:HiLDL2aDfdY", "metric": "views", "value": 355, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:v5yv6kYqQjI", "metric": "views", "value": 2419, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:C43KuPbrpEM", "metric": "views", "value": 413, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:n07cW2R7n28", "metric": "views", "value": 288, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:g8a98x2Tiso", "metric": "views", "value": 489, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:4ap-vk3rF_w", "metric": "views", "value": 542, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:TvcvlxZMMQs", "metric": "views", "value": 387, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ZNsWEkgASd4", "metric": "views", "value": 230, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:gbjHyiH3KKs", "metric": "views", "value": 128, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:7P7GNCOl-qI", "metric": "views", "value": 137, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:RlE77VY33Gc", "metric": "views", "value": 156, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:yJeEjPzyhl4", "metric": "views", "value": 159, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:bLd8G_jstWw", "metric": "views", "value": 367, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:4SXkE0rZWYE", "metric": "views", "value": 286, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:mzoQJhciHg4", "metric": "views", "value": 166, "meta": {"channel": "RCI Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:-bsA3dgwfKE", "metric": "views", "value": 60, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ghmtENPi6vw", "metric": "views", "value": 28, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:yoVBFjCMGLE", "metric": "views", "value": 35, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:smiIBnsjxmQ", "metric": "views", "value": 78, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:caGK5i3muC4", "metric": "views", "value": 57, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:3-dBIuy0yfQ", "metric": "views", "value": 92, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:V-rAaty3qp0", "metric": "views", "value": 51, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QI0cQ0Lbuyo", "metric": "views", "value": 36, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1EuALSLND7s", "metric": "views", "value": 34, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:6YuX30lsHHI", "metric": "views", "value": 30, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:daSCDhGi2C4", "metric": "views", "value": 86, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:S4h2Ro8W-0M", "metric": "views", "value": 64, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:tMg28awqKOk", "metric": "views", "value": 21, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:7y46Zdw930I", "metric": "views", "value": 45, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:TAP4bi9iDp4", "metric": "views", "value": 187, "meta": {"channel": "Radio Fusion"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:iRDPq8Zuf7w", "metric": "views", "value": 1494, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:4s9VDuODLZc", "metric": "views", "value": 2016, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:GWEs1nllJjM", "metric": "views", "value": 1739, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:SgCtTzIEZgU", "metric": "views", "value": 2649, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Y-0FSMO6NII", "metric": "views", "value": 2142, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:RHvuwqlPruQ", "metric": "views", "value": 1618, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:cPEMB_CUs_s", "metric": "views", "value": 1426, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:MHEVA87IVtM", "metric": "views", "value": 1974, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:jj9t19vPGfs", "metric": "views", "value": 2823, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:JxPDi_vT2SQ", "metric": "views", "value": 3754, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:pC1Pewr2tcA", "metric": "views", "value": 3751, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5k9SEqrngVg", "metric": "views", "value": 1677, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:mma5ElPKh54", "metric": "views", "value": 2255, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:shP2bD3_bzI", "metric": "views", "value": 2172, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:a2ySaMc7Tiw", "metric": "views", "value": 1327, "meta": {"channel": "ATV Martinique"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:X8f63KEeS4M", "metric": "views", "value": 1424, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:d-w64l8a51M", "metric": "views", "value": 2542, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:9_7gH5tv9dQ", "metric": "views", "value": 9045, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:4uh619Prkpg", "metric": "views", "value": 1301, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:BysueNtqq64", "metric": "views", "value": 20139, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:jweiPNYG55o", "metric": "views", "value": 21681, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:DCNrAHHpoHw", "metric": "views", "value": 17893, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:21lg_ABSK7M", "metric": "views", "value": 1485, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:WFQ-T4bhEYg", "metric": "views", "value": 19909, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:TRHvlsyg_sk", "metric": "views", "value": 18224, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:YbW0cRzUKMA", "metric": "views", "value": 9314, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:f-nn3R0GYxM", "metric": "views", "value": 17449, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:vNAU6E4CZwM", "metric": "views", "value": 17151, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:tE6Uuv8qxz8", "metric": "views", "value": 2143, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ZahXAqY9YOk", "metric": "views", "value": 10389, "meta": {"channel": "Martinique la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:O-JGPPFipp4", "metric": "views", "value": 2561, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:pinNUvzhwI0", "metric": "views", "value": 7130, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:0gG1mHHftcc", "metric": "views", "value": 1834, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:5NYuJAS3o7k", "metric": "views", "value": 1861, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:qLGaYbRsepU", "metric": "views", "value": 1747, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:t4OleRavtx8", "metric": "views", "value": 1884, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:QX9RsUb3GAY", "metric": "views", "value": 4300, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wJDw4q3wwb4", "metric": "views", "value": 3588, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:wwXvBP1A0Cc", "metric": "views", "value": 15734, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:7J0NbPTqMnA", "metric": "views", "value": 18752, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Z5Buvum7CtU", "metric": "views", "value": 18764, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:SvPAeSVCQEM", "metric": "views", "value": 11899, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:gOYwEUnZT-Y", "metric": "views", "value": 18112, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:d4wPuy47s8Y", "metric": "views", "value": 16384, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:xZ-abqjiA5o", "metric": "views", "value": 17691, "meta": {"channel": "Guadeloupe la 1ère"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:1AT_hthY6eg", "metric": "views", "value": 135, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Vc5cyQNnnjs", "metric": "views", "value": 138, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:3aUdtCPcvog", "metric": "views", "value": 769, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:zjUUT5hbt5U", "metric": "views", "value": 120, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:ls9NPbkHLmM", "metric": "views", "value": 603, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:-9qS266eRMA", "metric": "views", "value": 462, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:0NUOTAoGPI8", "metric": "views", "value": 150, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:HJ35ShCRn9Y", "metric": "views", "value": 24, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:AULmAVdT0hE", "metric": "views", "value": 280, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:lPNpa8fmFa0", "metric": "views", "value": 54, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:vg5oWTLyusA", "metric": "views", "value": 167, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:Tw_A_i_Dwv8", "metric": "views", "value": 164, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:X-REvjDe7I4", "metric": "views", "value": 213, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:rUpU3AP174c", "metric": "views", "value": 336, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
+{"entity": "yt:IlLRsqThJJo", "metric": "views", "value": 20, "meta": {"channel": "Grand Port Maritime"}, "ts": "2026-09-14T16:13:22+00:00"}
