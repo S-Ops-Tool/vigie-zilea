@@ -48,7 +48,11 @@ def _reputation():
     voit jamais qu'il manque. Tant qu'un seul releve existe, l'ecart est nul —
     c'est normal, la valeur nait de la serie.
     """
-    ids = store.load_state().get("tripadvisor_ids", {}) or {}
+    st = store.load_state()
+    ids = st.get("tripadvisor_ids", {}) or {}
+    # Le lien vit a cote de l'identifiant, pas dans un releve : un tableau reste
+    # cliquable meme la semaine ou un adherent n'a pas repondu.
+    meta_ta = st.get("tripadvisor_meta", {}) or {}
     av, no = store.deltas("reviews"), store.deltas("rating")
     rows = []
     for nom, loc in ids.items():
@@ -65,7 +69,8 @@ def _reputation():
             "depuis": a.get("since"),
             # le lien vient du releve, jamais d'une URL reconstruite a partir de
             # l'identifiant : une adresse fabriquee a la main finit par mentir
-            "url": meta.get("url") or "",
+            "url": (meta_ta.get(nom) or {}).get("url") or meta.get("url") or "",
+            "nom_ta": (meta_ta.get(nom) or {}).get("nom_ta") or "",
         })
     rows.sort(key=lambda r: (r["avis"] is None, -(r["avis"] or 0)))
     return rows

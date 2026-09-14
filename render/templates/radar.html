@@ -389,7 +389,11 @@ feed("offre",R.offers,OTH,function(){return "offer"},function(r){return r.headli
   if(d===null||d===undefined)ec='<span style="color:var(--muted)">premier relev\u00e9</span>';
   else if(d===0)ec='<span style="color:var(--muted)">\u2014</span>';
   else ec='<strong>'+(d>0?"+":"")+nf(d)+' avis</strong>';
+  // le nom Tripadvisor s'affiche sous le nom d'adherent quand il differe :
+  // c'est ce qui permet de reperer un mauvais appariement d'un coup d'oeil
   var nom=r.url?'<a href="'+r.url+'" target="_blank" rel="noopener">'+r.nom+'</a>':r.nom;
+  if(r.nom_ta&&r.nom_ta.toLowerCase()!==r.nom.toLowerCase())
+   nom+='<br><span class="mono" style="color:var(--muted);font-size:12px">'+r.nom_ta+'</span>';
   return "<tr><td>"+nom+"</td><td>"+(r.note!==null&&r.note!==undefined?r.note+"/5":"\u2014")
    +"</td><td>"+(r.avis!==null&&r.avis!==undefined?nf(r.avis):"\u2014")+"</td><td>"+ec+"</td></tr>"}).join("");
  B("n-rep").textContent=R2.length+" adh\u00e9rent(s) suivi(s) \u00b7 "+avec.length

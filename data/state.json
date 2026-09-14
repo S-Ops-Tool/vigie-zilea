@@ -112,5 +112,287 @@
   },
   "tripadvisor_a_trancher": {
     "Valmenière": 27997351
+  },
+  "tripadvisor_meta": {
+    "Bakoua": {
+      "id": 273561,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g147329-d273561-Reviews-Hotel_Bakoua_Martinique-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "trois-ilets hotel bakoua",
+      "note": 3.2,
+      "avis": 1127
+    },
+    "Habitation Céron": {
+      "id": 7617589,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g147327-d7617589-Reviews-Habitation_Ceron-Martinique.html?m=70260",
+      "nom_ta": "Habitation Céron",
+      "note": 3.7,
+      "avis": 791
+    },
+    "La Batelière": {
+      "id": 151621,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g1202624-d151621-Reviews-Hotel_La_Bateliere-Schoelcher_Arrondissement_of_Fort_de_France.html?m=70260",
+      "nom_ta": "Hôtel La Batelière",
+      "note": 2.9,
+      "avis": 690
+    },
+    "Karibea": {
+      "id": 151865,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g147328-d151865-Reviews-Karibea_Squash_Hotel-Fort_de_France_Arrondissement_of_Fort_de_France.html?m=70260",
+      "nom_ta": "squash hotel fort de france martinique",
+      "note": 3.7,
+      "avis": 222
+    },
+    "Club Med Les Boucaniers": {
+      "id": 28010226,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g147331-d28010226-Reviews-Club_Med_Les_Boucaniers-Sainte_Anne_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Club Med Les Boucaniers",
+      "note": null,
+      "avis": null
+    },
+    "Pierre & Vacances": {
+      "id": 17814598,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g657860-d17814598-Reviews-Pierre_&_Vacances_Premium_Les_Ilets-Sainte_Luce_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Pierre & Vacances Premium Les Ilets",
+      "note": 3.9,
+      "avis": 15
+    },
+    "La Suite Villa": {
+      "id": 2092216,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g147329-d2092216-Reviews-Le_Zandoli__La_Suite_Villa-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Le Zandoli - La Suite Villa",
+      "note": 4.2,
+      "avis": 810
+    },
+    "Plein Soleil": {
+      "id": 3206873,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g1189183-d3206873-Reviews-Restaurant_Plein_Soleil-Le_Francois_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Restaurant Plein Soleil",
+      "note": 4.3,
+      "avis": 209
+    },
+    "Domaine Saint Aubin": {
+      "id": 149836,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g1202633-d149836-Reviews-Le_Domaine_Saint_Aubin-La_Trinite_Arrondissement_of_La_Trinite.html?m=70260",
+      "nom_ta": "martinique hotel le domaine saint aubin",
+      "note": 3.8,
+      "avis": 349
+    },
+    "La Pagerie": {
+      "id": 674470,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g147329-d674470-Reviews-Hotel_La_Pagerie-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Hôtel La Pagerie",
+      "note": 4.3,
+      "avis": 2045
+    },
+    "French Coco": {
+      "id": 1741041,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g776158-d1741041-Reviews-French_Coco-Tartane_Arrondissement_of_La_Trinite.html?m=70260",
+      "nom_ta": "French Coco",
+      "note": 4.5,
+      "avis": 282
+    },
+    "ILOMA": {
+      "id": 266278,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g657860-d266278-Reviews-Hotel_Spa_Iloma-Sainte_Luce_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Hôtel Spa Iloma",
+      "note": 4.5,
+      "avis": 539
+    },
+    "Anse Bleue": {
+      "id": 27690416,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g147330-d27690416-Reviews-Residence_de_l_Anse_Bleue-Le_Diamant_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Résidence de l'Anse Bleue",
+      "note": 4.8,
+      "avis": 5
+    },
+    "Le Panoramic": {
+      "id": 5289383,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g147329-d5289383-Reviews-Hotel_Le_Panoramic-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Hotel Le Panoramic",
+      "note": 4.4,
+      "avis": 343
+    },
+    "Diamant Beach": {
+      "id": 1028792,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g147330-d1028792-Reviews-Diamant_Beach-Le_Diamant_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "residence hoteliere diamant beach 2",
+      "note": 3.5,
+      "avis": 446
+    },
+    "Fondation Clément": {
+      "id": 11829232,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g1189183-d11829232-Reviews-Fondation_Clement-Le_Francois_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Fondation Clément",
+      "note": 4.3,
+      "avis": 89
+    },
+    "Jardin de Balata": {
+      "id": 147828,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147328-d147828-Reviews-Jardin_de_Balata-Fort_de_France_Arrondissement_of_Fort_de_France.html?m=70260",
+      "nom_ta": "Jardin de Balata",
+      "note": 4.5,
+      "avis": 5096
+    },
+    "Savane des Esclaves": {
+      "id": 627903,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147329-d627903-Reviews-La_Savane_des_Esclaves-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "La Savane des Esclaves",
+      "note": 4.5,
+      "avis": 2539
+    },
+    "Zoo de Martinique": {
+      "id": 1787189,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g1146702-d1787189-Reviews-Zoo_de_Martinique-Le_Carbet_Arrondissement_of_Saint_Pierre.html?m=70260",
+      "nom_ta": "Zoo de Martinique - Habitation Latouche",
+      "note": 4.4,
+      "avis": 1252
+    },
+    "Mémorial de la Catastrophe de 1902": {
+      "id": 17438015,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g1202623-d17438015-Reviews-Memorial_De_La_Catastrophe_De_1902-Saint_Pierre_Arrondissement_of_Saint_Pierre.html?m=70260",
+      "nom_ta": "Mémorial De La Catastrophe De 1902",
+      "note": 4.2,
+      "avis": 85
+    },
+    "Mangofil": {
+      "id": 627906,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147329-d627906-Reviews-Mangofil_Martinique-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Mangofil",
+      "note": 3.9,
+      "avis": 204
+    },
+    "Les Ballades du Delphis": {
+      "id": 1973635,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g1189183-d1973635-Reviews-Les_Ballades_du_Delphis-Le_Francois_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Les Ballades du Delphis",
+      "note": 4.7,
+      "avis": 836
+    },
+    "Excursions Martinique": {
+      "id": 27741175,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147329-d27741175-Reviews-Excursions_Martinique-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Excursions Martinique",
+      "note": null,
+      "avis": null
+    },
+    "Martinique Access'Île": {
+      "id": 17550468,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147329-d17550468-Reviews-Martinique_Access_ile-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Martinique Access'île",
+      "note": 5.0,
+      "avis": 1
+    },
+    "Watt Up": {
+      "id": 13423480,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g776151-d13423480-Reviews-Watt_Up!-Le_Marin_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Watt Up!",
+      "note": 4.8,
+      "avis": 100
+    },
+    "Le Roi Mongin": {
+      "id": 29016500,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g1189183-d29016500-Reviews-Le_Roi_Mongin-Le_Francois_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Le Roi Mongin",
+      "note": 5.0,
+      "avis": 47
+    },
+    "Alwego": {
+      "id": 27156594,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g1202630-d27156594-Reviews-Alwego-Le_Lamentin_Arrondissement_of_Fort_de_France.html?m=70260",
+      "nom_ta": "Alwego",
+      "note": 2.4,
+      "avis": 7
+    },
+    "Jumbo Car": {
+      "id": 33031119,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147331-d33031119-Reviews-Jumbo_Car_Sainte_anne-Sainte_Anne_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Jumbo Car Sainte-anne",
+      "note": 5.0,
+      "avis": 1
+    },
+    "Le Petibonum": {
+      "id": 2047669,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g1146702-d2047669-Reviews-Le_Petibonum-Le_Carbet_Arrondissement_of_Saint_Pierre.html?m=70260",
+      "nom_ta": "Le Petibonum",
+      "note": 3.8,
+      "avis": 1244
+    },
+    "Simon Hôtel": {
+      "id": 9610527,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g147328-d9610527-Reviews-Simon_Hotel-Fort_de_France_Arrondissement_of_Fort_de_France.html?m=70260",
+      "nom_ta": "Simon Hotel",
+      "note": 3.6,
+      "avis": 334
+    },
+    "Résidence Océane": {
+      "id": 252659,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g1202633-d252659-Reviews-Residence_Oceane_Hotel-La_Trinite_Arrondissement_of_La_Trinite.html?m=70260",
+      "nom_ta": "hotel residence oceane la trinite",
+      "note": 3.9,
+      "avis": 232
+    },
+    "Village Créole": {
+      "id": 3838976,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147329-d3838976-Reviews-Village_Creole-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Village Creole",
+      "note": 3.5,
+      "avis": 98
+    },
+    "Habitation Clément": {
+      "id": 253288,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g1189183-d253288-Reviews-Habitation_Clement-Le_Francois_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Habitation Clement",
+      "note": 4.4,
+      "avis": 3452
+    },
+    "Habitation Saint-Étienne": {
+      "id": 7824974,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g1996994-d7824974-Reviews-Habitation_Saint_Etienne-Gros_Morne_Arrondissement_of_La_Trinite.html?m=70260",
+      "nom_ta": "Habitation Saint-Etienne",
+      "note": 4.2,
+      "avis": 173
+    },
+    "Domaine d'Émeraude": {
+      "id": 3536448,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g3398776-d3536448-Reviews-Domaine_d_Emeraude-Le_Morne_Rouge_Arrondissement_of_Saint_Pierre.html?m=70260",
+      "nom_ta": "Domaine d'Emeraude",
+      "note": 4.5,
+      "avis": 333
+    },
+    "Parc Naturel Régional": {
+      "id": 152604,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147328-d152604-Reviews-Parc_Naturel_Regional_de_la_Martinique-Fort_de_France_Arrondissement_of_Fort_de_Fr.html?m=70260",
+      "nom_ta": "Parc Naturel Regional de la Martinique",
+      "note": 4.4,
+      "avis": 49
+    },
+    "Diamond Rock Catamaran": {
+      "id": 11876883,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147329-d11876883-Reviews-Diamond_Rock-Trois_Ilets_Arrondissement_of_Le_Marin.html?m=70260",
+      "nom_ta": "Diamond Rock",
+      "note": 4.8,
+      "avis": 261
+    },
+    "Beyond the Beach": {
+      "id": 9835883,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g1202624-d9835883-Reviews-Beyond_The_Beach-Schoelcher_Arrondissement_of_Fort_de_France.html?m=70260",
+      "nom_ta": "Beyond The Beach",
+      "note": 4.6,
+      "avis": 450
+    },
+    "Captain Marcson": {
+      "id": 12571703,
+      "url": "https://www.tripadvisor.com/Attraction_Review-g147328-d12571703-Reviews-Captain_Marcson-Fort_de_France_Arrondissement_of_Fort_de_France.html?m=70260",
+      "nom_ta": "Captain Marcson",
+      "note": 4.9,
+      "avis": 65
+    },
+    "Le Brédas": {
+      "id": 3810251,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g4604605-d3810251-Reviews-Restaurant_Le_Bredas-Saint_Joseph_Arrondissement_of_Fort_de_France.html?m=70260",
+      "nom_ta": "Restaurant Le Brédas",
+      "note": 4.2,
+      "avis": 49
+    }
   }
 }
