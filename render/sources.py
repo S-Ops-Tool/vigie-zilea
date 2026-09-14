@@ -266,6 +266,8 @@ def _index():
         ("digest.html", "La revue de la semaine", "L'envoi hebdomadaire tel que le recevraient les adh\u00e9rents."),
         ("sources.html", "D'o\u00f9 viennent les informations",
          f"Les {_nb_sources()} sources interrog\u00e9es et les r\u00e8gles de classement."),
+        ("archives.html", "Les revues pass\u00e9es",
+         "Chaque envoi hebdomadaire, conserv\u00e9 tel qu'il est parti."),
     ]
     cartes = "".join(
         f'<a class="c" href="{u}"><b>{t}</b><span>{d2}</span></a>' for u, t, d2 in pages)

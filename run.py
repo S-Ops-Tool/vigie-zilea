@@ -18,6 +18,7 @@ load_dotenv()
 from core import store, editorial, llm, health           # noqa: E402
 from core.config import CLIENT, OUT_DIR, DATA_DIR                  # noqa: E402
 from render import radar, digest, sources as sources_page  # noqa: E402
+from render import archives as archives_page                # noqa: E402
 
 
 def week_label(d=None):
@@ -139,7 +140,8 @@ def run(cadence, dry_run=False):
         digest.render(buckets["members"], hs, week_label(), sector=secteur)
         _marquer(buckets["members"] + secteur)
         iso = datetime.date.today().isocalendar()
-        _archiver(f"{iso[0]}-S{iso[1]:02d}")
+        _archiver(f"{iso[0]}-S{iso[1]:02d}", week_label(),
+                  len(buckets["members"]), len(secteur))
         print(f"→ digest généré : {OUT_DIR/'digest.html'}")
     else:
         print(f"→ plancher non atteint ({len(buckets['members'])} items) : pas d'envoi cette semaine")
@@ -154,18 +156,24 @@ def run(cadence, dry_run=False):
     # qu'a la main : la racine partagee renvoyait une 404 et l'inventaire des
     # sources ne quittait jamais le poste.
     print(f"→ sources et page d'accueil : {sources_page.render()}")
+    n_arch, out_arch = archives_page.render()
+    print(f"→ archives : {n_arch} revue(s) publiée(s)")
     return 0
 
 
 ARCHIVE = DATA_DIR / "digests"
 
 
-def _archiver(stamp):
+def _archiver(stamp, libelle, n_items, n_secteur):
     """Range la revue de la semaine a cote du corpus.
 
     Le site publie le contenu de out/, reconstruit a vide a chaque execution.
     Sans archive, une semaine sous le plancher effacait du site la revue de la
     semaine precedente et laissait un lien mort sur la page d'accueil.
+
+    La fiche .json ecrite a cote evite d'avoir a relire le HTML pour savoir ce
+    que contenait une revue : la page des archives se construit sur ces fiches,
+    jamais sur une analyse du rendu.
     """
     import shutil
     ARCHIVE.mkdir(parents=True, exist_ok=True)
@@ -173,6 +181,10 @@ def _archiver(stamp):
         src = OUT_DIR / f"digest.{ext}"
         if src.exists():
             shutil.copy2(src, ARCHIVE / f"{stamp}.{ext}")
+    (ARCHIVE / f"{stamp}.json").write_text(json.dumps({
+        "stamp": stamp, "libelle": libelle, "items": n_items,
+        "secteur": n_secteur, "emise": datetime.date.today().isoformat(),
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def _republier_derniere():
