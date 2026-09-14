@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from core import store, editorial, llm, health           # noqa: E402
-from core.config import CLIENT, OUT_DIR                  # noqa: E402
+from core.config import CLIENT, OUT_DIR, DATA_DIR                  # noqa: E402
 from render import radar, digest, sources as sources_page  # noqa: E402
 
 
@@ -138,9 +138,14 @@ def run(cadence, dry_run=False):
     if editorial.should_send(len(buckets["members"])):
         digest.render(buckets["members"], hs, week_label(), sector=secteur)
         _marquer(buckets["members"] + secteur)
+        iso = datetime.date.today().isocalendar()
+        _archiver(f"{iso[0]}-S{iso[1]:02d}")
         print(f"→ digest généré : {OUT_DIR/'digest.html'}")
     else:
         print(f"→ plancher non atteint ({len(buckets['members'])} items) : pas d'envoi cette semaine")
+        repris = _republier_derniere()
+        if repris:
+            print(f"  la revue publiée reste celle de {repris}")
 
     out, payload = radar.render()
     print(f"→ radar régénéré : {out}")
@@ -150,6 +155,39 @@ def run(cadence, dry_run=False):
     # sources ne quittait jamais le poste.
     print(f"→ sources et page d'accueil : {sources_page.render()}")
     return 0
+
+
+ARCHIVE = DATA_DIR / "digests"
+
+
+def _archiver(stamp):
+    """Range la revue de la semaine a cote du corpus.
+
+    Le site publie le contenu de out/, reconstruit a vide a chaque execution.
+    Sans archive, une semaine sous le plancher effacait du site la revue de la
+    semaine precedente et laissait un lien mort sur la page d'accueil.
+    """
+    import shutil
+    ARCHIVE.mkdir(parents=True, exist_ok=True)
+    for ext in ("html", "txt"):
+        src = OUT_DIR / f"digest.{ext}"
+        if src.exists():
+            shutil.copy2(src, ARCHIVE / f"{stamp}.{ext}")
+
+
+def _republier_derniere():
+    """Remet la derniere revue archivee dans out/ quand le run n'en produit pas."""
+    import shutil
+    if (OUT_DIR / "digest.html").exists() or not ARCHIVE.exists():
+        return None
+    vues = sorted(ARCHIVE.glob("*.html"))
+    if not vues:
+        return None
+    shutil.copy2(vues[-1], OUT_DIR / "digest.html")
+    txt = vues[-1].with_suffix(".txt")
+    if txt.exists():
+        shutil.copy2(txt, OUT_DIR / "digest.txt")
+    return vues[-1].stem
 
 
 def _marquer(items):
