@@ -71,9 +71,25 @@ def _reputation():
             # l'identifiant : une adresse fabriquee a la main finit par mentir
             "url": (meta_ta.get(nom) or {}).get("url") or meta.get("url") or "",
             "nom_ta": (meta_ta.get(nom) or {}).get("nom_ta") or "",
+            "icon": (meta_ta.get(nom) or {}).get("icon") or meta.get("icon") or "",
         })
     rows.sort(key=lambda r: (r["avis"] is None, -(r["avis"] or 0)))
     return rows
+
+
+CHAMPS_NON_PUBLIES = ("body_text", "body")
+
+
+def _alleger(items):
+    """Retire de la page ce qui n'y est pas affiche mais y serait publie.
+
+    Le texte de presse n'apparaissait nulle part a l'ecran, mais il voyageait
+    dans la charge utile : embarque dans le HTML, donc lisible par quiconque
+    ouvre le code source de la page. Une page publique ne transporte que ce
+    qu'elle montre.
+    """
+    return [{k: v for k, v in it.items() if k not in CHAMPS_NON_PUBLIES}
+            for it in items]
 
 
 def build_payload():
@@ -94,8 +110,10 @@ def build_payload():
         # Avec 700 items collectes en une semaine, un plafond global de 400
         # ramenait le radar a cinq jours d'histoire : les six mois d'amorçage
         # disparaissaient derriere l'actualite sectorielle mondiale du jour.
-        "articles": _articles_payload(articles),
-        "videos": [_mark(v) for v in sorted(videos, key=lambda x: x.get("versioncreated", ""), reverse=True)[:500]],
+        "articles": _alleger(_articles_payload(articles)),
+        "videos": _alleger([_mark(v) for v in sorted(
+            videos, key=lambda x: x.get("versioncreated", ""),
+            reverse=True)[:500]]),
         # l'ordre est choisi a l'ecran ; ici on garde les plus recemment reperees
         "offers": sorted(offers, key=lambda x: (x.get("collected") or ""),
                          reverse=True)[:200],

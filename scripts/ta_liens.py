@@ -39,7 +39,7 @@ for i, (nom, loc) in enumerate(ids.items(), 1):
     lien = ta.get("main") or ""
     note, avis = TA.note_de(d)
     meta[nom] = {"id": loc, "url": lien, "nom_ta": TA.nom_de(d),
-                 "note": note, "avis": avis}
+                 "note": note, "avis": avis, "icon": TA.pastille_de(d)}
     print(f"  [{i:2}] {nom:26} {str(note):>4}/5 {str(avis):>6} avis  {lien[:52]}")
     time.sleep(0.3)
 

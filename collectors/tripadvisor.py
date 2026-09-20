@@ -127,6 +127,16 @@ def note_de(d):
     return r.get("rating"), r.get("count")
 
 
+def pastille_de(d):
+    """Image de notation fournie par Tripadvisor.
+
+    Leurs conditions d'affichage imposent que la note soit accompagnee de leur
+    representation graphique, pas seulement d'un chiffre. L'adresse de l'image
+    vient de leur reponse : on ne la fabrique pas.
+    """
+    return (unwrap(d).get("overall_rating") or {}).get("icon_url") or ""
+
+
 def catalog_search(name, extra=""):
     """Cherche dans TOUT le catalogue, sans filtre d'autorisation.
 
@@ -236,7 +246,8 @@ def collect():
         rk = None
         if avis is not None:
             snaps.append({"entity": ent, "metric": "reviews", "value": int(avis),
-                          "meta": {"name": nom, "rating": note, "url": lien}})
+                          "meta": {"name": nom, "rating": note, "url": lien,
+                                   "icon": pastille_de(d)}})
         if note is not None:
             snaps.append({"entity": ent, "metric": "rating", "value": note, "meta": {"name": nom}})
         if rk is not None:

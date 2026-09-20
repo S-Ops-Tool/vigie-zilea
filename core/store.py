@@ -50,14 +50,36 @@ def known_keys():
     return {it["uri"] for it in read_corpus()}
 
 
+EXTRAIT_MAX = 400
+
+
+def _pour_disque(item):
+    """Ce qui part au corpus ne garde qu'un extrait du texte de presse.
+
+    La troncature a lieu a l'ECRITURE, pas a la collecte : les resumes sont
+    produits plus tot dans le meme run, sur le texte complet encore en memoire,
+    et ne perdent rien. Ce qui est conserve sur disque — donc publie avec le
+    depot — redevient un extrait court au lieu d'une reproduction.
+    """
+    t = item.get("body_text")
+    if isinstance(t, str) and len(t) > EXTRAIT_MAX:
+        item = dict(item)
+        item["body_text"] = t[:EXTRAIT_MAX].rstrip() + "\u2026"
+        item["body_tronque"] = True
+    return item
+
+
 def append_items(items):
-    """Ajoute uniquement les items inconnus. Retourne ceux reellement ecrits."""
+    """Ajoute uniquement les items inconnus. Retourne ceux reellement ecrits.
+
+    Retourne les items COMPLETS : l'extrait ne concerne que le disque.
+    """
     seen = known_keys()
     fresh = [it for it in items if it["uri"] not in seen]
     if fresh:
         with open(CORPUS, "a", encoding="utf-8") as f:
             for it in fresh:
-                f.write(json.dumps(it, ensure_ascii=False) + "\n")
+                f.write(json.dumps(_pour_disque(it), ensure_ascii=False) + "\n")
     return fresh
 
 

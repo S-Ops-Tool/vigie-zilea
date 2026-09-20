@@ -129,6 +129,9 @@ td.nm{font-weight:600}
 .hin p.hnav{margin:6px 0 0;display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px}
 .hin p.hnav a{color:var(--ink2);text-decoration:none;border-bottom:1px solid transparent}
 .hin p.hnav a:hover{color:var(--ink);border-bottom-color:currentColor}
+.attrib{margin:6px 0 0;font-size:12.5px;color:var(--muted)}
+.attrib a{color:inherit}
+img.bul{vertical-align:-1px;margin-right:5px}
 select.srt{margin:0 0 10px;padding:7px 10px;border:1px solid var(--rule);border-radius:8px;
  background:var(--sheet);color:var(--ink);font:inherit;font-size:13.5px}
 </style></head><body>
@@ -165,6 +168,7 @@ select.srt{margin:0 0 10px;padding:7px 10px;border:1px solid var(--rule);border-
     <p class="lede" id="rep-lede"></p>
     <div class="tw"><table id="rep-t"><thead id="rep-h"></thead><tbody id="rep-b"></tbody></table></div>
     <p class="mono" id="n-rep" style="color:var(--muted)"></p>
+    <p class="attrib" id="rep-attrib"></p>
   </div></section>
   <section class="panel" id="tab-offre" hidden><div class="card"><h2>Offre en vente</h2>
     <input type="text" id="q-offre" placeholder="Rechercher…"><div class="chips" id="c-offre"></div>
@@ -394,8 +398,16 @@ feed("offre",R.offers,OTH,function(){return "offer"},function(r){return r.headli
   var nom=r.url?'<a href="'+r.url+'" target="_blank" rel="noopener">'+r.nom+'</a>':r.nom;
   if(r.nom_ta&&r.nom_ta.toLowerCase()!==r.nom.toLowerCase())
    nom+='<br><span class="mono" style="color:var(--muted);font-size:12px">'+r.nom_ta+'</span>';
-  return "<tr><td>"+nom+"</td><td>"+(r.note!==null&&r.note!==undefined?r.note+"/5":"\u2014")
+  // Tripadvisor impose d'afficher SA representation graphique de la note, pas
+  // seulement le chiffre. L'image vient de leur reponse, on ne la fabrique pas.
+  var note="\u2014";
+  if(r.note!==null&&r.note!==undefined){
+   note=(r.icon?'<img class="bul" src="'+r.icon+'" alt="'+r.note+' sur 5" height="12"> ':"")+r.note+"/5"}
+  return "<tr><td>"+nom+"</td><td>"+note
    +"</td><td>"+(r.avis!==null&&r.avis!==undefined?nf(r.avis):"\u2014")+"</td><td>"+ec+"</td></tr>"}).join("");
+ B("rep-attrib").innerHTML='Notes et avis fournis par '
+  +'<a href="https://www.tripadvisor.fr/" target="_blank" rel="noopener">Tripadvisor</a>. '
+  +'Chaque nom renvoie \u00e0 la fiche d\u2019origine.';
  B("n-rep").textContent=R2.length+" adh\u00e9rent(s) suivi(s) \u00b7 "+avec.length
   +" avec un relev\u00e9 \u00b7 "+mouv.length+" avec un \u00e9cart mesurable";
 })();
