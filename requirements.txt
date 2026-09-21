@@ -1,6 +1,10 @@
-feedparser>=6.0.11
-requests>=2.32.0
-python-dateutil>=2.9.0
-anthropic>=0.40.0
-python-dotenv>=1.0.1
-beautifulsoup4>=4.12.3
+# Versions figees. Le run hebdomadaire reinstalle tout a chaque execution :
+# une borne ouverte fait dependre la revue du lundi de ce qui a ete publie
+# en amont dans la semaine. C'est ainsi que la revue 001 est partie avec
+# un message d'erreur a la place de chaque resume.
+feedparser==6.0.14
+requests==2.34.2
+python-dateutil==2.9.0.post0
+anthropic==1.5.0
+python-dotenv==1.2.3
+beautifulsoup4==4.15.0

@@ -20,9 +20,12 @@
   "summary": {
     "max_sentences": 3,
     "model": "claude-haiku-4-5-20251001",
-    "temperature": 0,
     "one_article_at_a_time": true,
-    "forbid_cross_article_inference": true
+    "forbid_cross_article_inference": true,
+    "_note": "On ne resume que ce qui peut l'etre. En dessous de min_source_chars la source ne fournit qu'un chapeau : le reformuler produit un texte de meme longueur, sans valeur de lecture et avec le profil de droits le plus defavorable. max_ratio et max_chars bornent ce qui sort, la consigne seule ne bornant que le nombre de phrases.",
+    "min_source_chars": 800,
+    "max_ratio": 0.45,
+    "max_chars": 320
   },
   "disclosure_fr": "Revue générée automatiquement. Aucune relecture humaine. Chaque titre et chaque chiffre est repris tel quel de sa source.",
   "copyright_note_fr": "Revue de liens et de résumés ; aucun article n'est reproduit.",

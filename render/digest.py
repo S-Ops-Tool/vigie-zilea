@@ -14,12 +14,18 @@ ORDER = ["ENV", "GOUV", "AIR", "CROIS", "OFFRE", "DISTRI", "FREQ"]
 
 def _item(it):
     prov = " · ".join(x for x in [it.get("source", ""), it.get("versioncreated", "")] if x)
-    status = it.get("summary_status") or ""
+    # Deux natures de "pas de resume" qu'il ne faut pas confondre a l'ecran.
+    # "source sans descriptif" renseigne le lecteur : le flux n'a rien fourni.
+    # "echec resume (TypeError)" ne renseigne personne, sauf sur notre panne :
+    # sa place est dans le releve de sante, pas dans une revue envoyee au
+    # client. Un titre seul reste lisible ; un message d'erreur, non.
+    # Pas de resume : rien. Aucune mention d'etat n'atteint le lecteur, qu'elle
+    # vienne d'une panne ou d'une source trop maigre. Ces libelles servent au
+    # releve de sante, ou ils sont lus par quelqu'un qui peut en faire quelque
+    # chose. Sous un titre de revue, ils ne font que signaler un manque.
     body = ""
     if it.get("summary"):
         body = f'<p style="margin:0 0 4px;font-size:14px;line-height:1.5;color:#3C4A4A;">{H.escape(it["summary"])}</p>'
-    elif status:
-        body = f'<p style="margin:0 0 4px;font-size:12px;color:#6E8484;font-style:italic;">{H.escape(status)}</p>'
     return f"""
     <tr><td style="padding:0 0 16px;">
       <a href="{H.escape(it.get('url',''))}" style="font-family:{B['display_font']},Georgia,serif;font-size:16px;
@@ -27,7 +33,7 @@ def _item(it):
          border-bottom:1.5px solid {B['amber']};">{H.escape(it.get('headline',''))}</a>
       <div style="height:6px;"></div>
       {body}
-      <div style="font-family:monospace;font-size:10px;color:#6E8484;">{H.escape(prov)} · titre copié</div>
+      <div style="font-family:monospace;font-size:10px;color:#6E8484;">{H.escape(prov)}</div>
     </td></tr>"""
 
 

@@ -9,3 +9,8 @@ out/
 .DS_Store?
 ._*
 data/_avant_correctif/
+# Le depot est public : les projets de contrat n'y ont pas leur place.
+contrats/
+# Copies de sauvegarde laissees par les corrections.
+*.avant_refection
+*.avant_troncature

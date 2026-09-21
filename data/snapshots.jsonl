@@ -4238,3 +4238,7 @@
 {"entity": "ta:12571703", "metric": "rating", "value": 4.9, "meta": {"name": "Captain Marcson"}, "ts": "2026-09-21T16:18:55+00:00"}
 {"entity": "ta:3810251", "metric": "reviews", "value": 49, "meta": {"name": "Le Brédas", "rating": 4.2, "url": "https://www.tripadvisor.com/Restaurant_Review-g4604605-d3810251-Reviews-Restaurant_Le_Bredas-Saint_Joseph_Arrondissement_of_Fort_de_France.html?m=70260", "icon": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-70260-4.png"}, "ts": "2026-09-21T16:18:55+00:00"}
 {"entity": "ta:3810251", "metric": "rating", "value": 4.2, "meta": {"name": "Le Brédas"}, "ts": "2026-09-21T16:18:55+00:00"}
+{"entity": "viator:martinique", "metric": "offer_count", "value": 70, "meta": {}, "ts": "2026-09-21T18:58:11+00:00"}
+{"entity": "viator:martinique", "metric": "offer_count", "value": 74, "meta": {}, "ts": "2026-09-21T18:58:11+00:00"}
+{"entity": "viator:martinique", "metric": "offer_count", "value": 70, "meta": {}, "ts": "2026-09-21T18:59:14+00:00"}
+{"entity": "viator:martinique", "metric": "offer_count", "value": 74, "meta": {}, "ts": "2026-09-21T18:59:14+00:00"}

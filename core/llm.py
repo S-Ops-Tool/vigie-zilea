@@ -7,7 +7,7 @@ Contraintes structurelles, pas des consignes de prompt :
   - en cas d'echec ou de texte absent, on ne resume pas : le champ reste vide
     et le radar affiche « pas de resume » plutot que de combler
 """
-import os, json
+import os, json, re
 from .config import EDITORIAL
 from . import taxonomy
 
@@ -30,12 +30,42 @@ def _client():
     return Anthropic(api_key=key)
 
 
+def _borner(texte, n_source, cfg):
+    """Coupe a la phrase pres pour rester sous les bornes.
+
+    La consigne systeme ne borne que le NOMBRE DE PHRASES ; le modele remplit
+    l'espace qu'on lui laisse. On garde donc les premieres phrases qui tiennent
+    sous le plafond absolu ET sous une fraction de la source. Couper a la
+    phrase, jamais au caractere : un resume tronque en plein mot se voit.
+    """
+    if texte == "SANS_RESUME":
+        return texte
+    plafond = min(int(cfg.get("max_chars", 320)),
+                  int(n_source * float(cfg.get("max_ratio", 0.45))))
+    if len(texte) <= plafond:
+        return texte
+    garde = ""
+    for phrase in re.split(r"(?<=[.!?])\s+", texte):
+        if len(garde) + len(phrase) + 1 > plafond:
+            break
+        garde = (garde + " " + phrase).strip()
+    return garde or texte[:plafond].rsplit(" ", 1)[0]
+
+
 def summarize(item, dry_run=False):
     """Renseigne item['summary'] ou le laisse a None. Ne leve jamais."""
+    cfg = EDITORIAL["summary"]
     text = (item.get("body_text") or "").strip()
-    if len(text) < 200:
+    seuil = cfg.get("min_source_chars", 800)
+    if len(text) < seuil:
+        # Un chapeau de 300 signes ne se resume pas : trois phrases en font
+        # autant. Le rapport median mesure entre le "resume" et sa source
+        # etait de 100 % — aucune compression, et une reformulation integrale
+        # du seul texte dont on dispose. Le titre et le lien suffisent.
         item["summary"] = None
-        item["summary_status"] = "source sans descriptif"
+        item["summary_status"] = ("source sans descriptif" if len(text) < 120
+                                  else "")
+        item["summary_skip"] = f"source trop courte ({len(text)} < {seuil})"
         return item
     if dry_run:
         item["summary"] = None
@@ -46,16 +76,20 @@ def summarize(item, dry_run=False):
         item["summary"] = None
         item["summary_status"] = "pas de cle API"
         return item
-    cfg = EDITORIAL["summary"]
     try:
+        # temperature a disparu de messages.create avec la version 1.0 du SDK.
+        # L'envoyer levait un TypeError sur CHAQUE article : la revue partait
+        # avec un message d'erreur a la place de chaque resume, et le run
+        # restait vert. Ce qui tient la bride au modele reste en place : une
+        # consigne systeme stricte, un article a la fois, et la reponse
+        # SANS_RESUME quand le texte ne permet rien.
         r = cli.messages.create(
             model=cfg["model"],
             max_tokens=300,
-            temperature=cfg.get("temperature", 0),
             system=SYSTEM,
             messages=[{"role": "user", "content": f"Titre : {item.get('headline','')}\n\nTexte :\n{text[:6000]}"}],
         )
-        out = r.content[0].text.strip()
+        out = _borner(r.content[0].text.strip(), len(text), cfg)
         if out == "SANS_RESUME" or len(out) < 30:
             item["summary"] = None
             item["summary_status"] = "resume non produit"

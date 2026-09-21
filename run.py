@@ -117,8 +117,40 @@ def run(cadence, dry_run=False):
     if n:
         print(f"\u2192 liens : {n} redirection(s) Google News r\u00e9solue(s)")
 
+    # On lit les articles avant de les resumer. Le texte recupere ne touche
+    # jamais le disque : il sert au resume puis il est rendu. Le corpus, qui
+    # part dans un depot public, continue de ne conserver que le chapeau.
+    from core import article
+    a_lire = buckets["members"] + buckets["president"]
+    if not dry_run:
+        faits, tentes, motifs = article.enrichir(a_lire)
+        print(f"\u2192 lecture des articles : {faits} lus sur {tentes} tent\u00e9s")
+        if motifs:
+            print("  échecs : " + ", ".join(f"{m} ×{n}" for m, n in motifs.most_common(4)))
+        checks.append({"source": "Lecture des articles", "ok": tentes == 0 or faits * 2 >= tentes,
+                       "note": f"{faits}/{tentes} articles lus"})
+
     for it in buckets["members"]:
         llm.summarize(it, dry_run=dry_run)
+
+    if not dry_run:
+        article.rendre(a_lire)
+
+    # Un resume qui echoue pour raison technique n'est pas un evenement mineur :
+    # c'est la valeur ajoutee de la revue qui disparait. Le run precedent est
+    # parti tout vert alors que 100 % des resumes avaient echoue. On compte, on
+    # consigne, et l'etape de controle fera rougir le run.
+    pannes = [i for i in buckets["members"]
+              if str(i.get("summary_status", "")).startswith("echec")]
+    if buckets["members"]:
+        part = 100 * len(pannes) // len(buckets["members"])
+        checks.append({"source": "Resumes", "ok": part <= 20,
+                       "note": f"{len(pannes)}/{len(buckets['members'])} en echec ({part} %)",
+                       "taux_echec": part})
+        if pannes:
+            motif = pannes[0].get("summary_status", "")
+            print(f"\u2192 r\u00e9sum\u00e9s : {len(pannes)}/{len(buckets['members'])} "
+                  f"en \u00e9chec ({part} %) \u2014 premier motif : {motif}")
 
     hs = health.summarize(checks)
     arb = health.to_arbitrate(checks)
@@ -152,6 +184,13 @@ def run(cadence, dry_run=False):
         repris = _republier_derniere()
         if repris:
             print(f"  la revue publiée reste celle de {repris}")
+
+    # Le texte de presse a servi : les resumes sont faits. Ce qui est plus vieux
+    # que la fenetre editoriale ne servira plus jamais a en produire.
+    n_c, o_c = store.compacter_corpus()
+    if n_c:
+        print(f"\u2192 corpus : {n_c} article(s) r\u00e9duits \u00e0 un extrait "
+              f"({o_c // 1024} Ko de texte retir\u00e9s)")
 
     out, payload = radar.render()
     print(f"→ radar régénéré : {out}")
@@ -204,6 +243,34 @@ def _republier_derniere():
     if txt.exists():
         shutil.copy2(txt, OUT_DIR / "digest.txt")
     return vues[-1].stem
+
+
+def verifier():
+    """Controle de qualite du dernier run. Rend la main avec 1 si elle a chute.
+
+    Appelee APRES la publication : on publie ce qu'on a, mais le run passe au
+    rouge pour que personne ne decouvre la panne dans la revue du client.
+    """
+    from core import health
+    import json as _j
+    lignes = [l for l in open(health.HISTORY, encoding="utf-8") if l.strip()]
+    if not lignes:
+        print("\u2192 aucun relev\u00e9 de sant\u00e9"); return 0
+    dernier = _j.loads(lignes[-1])
+    alertes = []
+    for c in dernier.get("checks", []):
+        if c.get("source") == "Resumes" and not c.get("ok"):
+            alertes.append(f"r\u00e9sum\u00e9s : {c.get('note')}")
+    hs = health.summarize(dernier.get("checks", []))
+    if hs["queried"] and hs["responded"] * 100 // hs["queried"] < 50:
+        alertes.append(f"sources : {hs['responded']}/{hs['queried']} ont r\u00e9pondu")
+    if not alertes:
+        print("\u2192 contr\u00f4le de qualit\u00e9 : rien \u00e0 signaler")
+        return 0
+    print("\u2192 CONTR\u00d4LE DE QUALIT\u00c9 \u2014 anomalies :")
+    for a in alertes:
+        print("   -", a)
+    return 1
 
 
 def publier():
@@ -276,6 +343,8 @@ if __name__ == "__main__":
     ap.add_argument("--cadence", default="weekly", choices=["daily", "weekly", "all"])
     ap.add_argument("--dry-run", action="store_true", help="aucun appel au modèle")
     ap.add_argument("--render-only", action="store_true")
+    ap.add_argument("--verifier", action="store_true",
+                    help="controle de qualite du dernier run")
     ap.add_argument("--publier", action="store_true",
                     help="refabrique les pages sans collecter")
     ap.add_argument("--send", action="store_true")
@@ -285,6 +354,8 @@ if __name__ == "__main__":
         from core import delivery
         ok, rep = delivery.preflight(); delivery.print_preflight(rep)
         sys.exit(0 if (ok or delivery.simulate()) else 1)
+    if a.verifier:
+        sys.exit(verifier())
     if a.publier:
         sys.exit(publier())
     if a.send:

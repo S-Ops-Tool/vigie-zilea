@@ -101,4 +101,11 @@ jobs:
         with:
           path: out/
       - uses: actions/deploy-pages@v5
-        if: steps.rendu.conclusion == 'success' && vars.PUBLISH_PAGES == '1' 
+        if: steps.rendu.conclusion == 'success' && vars.PUBLISH_PAGES == '1'
+
+      # Dernier, volontairement : on publie ce qu'on a, puis le run passe au
+      # rouge si la qualite s'est effondree. Un run vert pendant que 100 % des
+      # resumes echouent est pire qu'un run rouge.
+      - name: Controle de qualite
+        if: steps.rendu.conclusion == 'success'
+        run: python run.py --verifier 

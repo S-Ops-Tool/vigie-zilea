@@ -66,10 +66,6 @@ Revue générée automatiquement. Aucune relecture humaine. Chaque titre et chaq
   Outremers360 · 2026-09-19
   https://outremers360.com/bassin-atlantique-appli/la-martinique-ouvre-le-debat-sur-son-modele-fiscal-et-economique-lie-a-de-loctroi-de-mer
 
-[Institutions & politiques] Monuments historiques de Guyane : A la découverte des traces d’une histoire marquée par les rencontres, les épreuves et les métissages culturels
-  Outremers360 · 2026-09-19
-  https://outremers360.com/bassin-atlantique-appli/monuments-historiques-de-guyane-a-la-decouverte-des-traces-dune-histoire-marquee-par-les-rencontres-les-epreuves-et-les-metissages-culturels
-
 [Institutions & politiques] Martinique: Succès historique : 25 Martiniquais parmi les 80 premiers diplômés en médecine
   ETV Guadeloupe · 2026-09-21
   https://www.etv.gp/tv/martinique-succes-historique-25-martiniquais-parmi-les-80-premiers-diplomes-en-medecine/
@@ -165,6 +161,10 @@ Revue générée automatiquement. Aucune relecture humaine. Chaque titre et chaq
 
 -- Secteur & Caraïbe (hors Martinique) --
 
+[Institutions & politiques] Monuments historiques de Guyane : A la découverte des traces d’une histoire marquée par les rencontres, les épreuves et les métissages culturels
+  Outremers360 · 2026-09-19
+  https://outremers360.com/bassin-atlantique-appli/monuments-historiques-de-guyane-a-la-decouverte-des-traces-dune-histoire-marquee-par-les-rencontres-les-epreuves-et-les-metissages-culturels
+
 [Fréquentation & économie du secteur] Barbade: Passeport de la Barbade : un atout précieux pour les voyageurs
   ETV Guadeloupe · 2026-09-13
   https://www.etv.gp/tv/barbade-passeport-de-la-barbade-un-atout-precieux-pour-les-voyageurs/
@@ -185,5 +185,5 @@ Revue générée automatiquement. Aucune relecture humaine. Chaque titre et chaq
   ETV Guadeloupe · 2026-09-13
   https://www.etv.gp/tv/barbade-bhta-le-president-plaide-pour-une-nouvelle-ere-du-tourisme/
 
-80 sources interrogées · 75 réponses · 5 en échec
+0 sources interrogées · 0 réponses · 0 en échec
 Revue de liens et de résumés ; aucun article n'est reproduit.

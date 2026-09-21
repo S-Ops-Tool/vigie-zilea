@@ -51,35 +51,56 @@ def known_keys():
 
 
 EXTRAIT_MAX = 400
+RETENTION_TEXTE_JOURS = 15
 
 
-def _pour_disque(item):
-    """Ce qui part au corpus ne garde qu'un extrait du texte de presse.
+def compacter_corpus(jours=RETENTION_TEXTE_JOURS, limite=EXTRAIT_MAX):
+    """Le texte de presse ne survit pas a la fenetre editoriale.
 
-    La troncature a lieu a l'ECRITURE, pas a la collecte : les resumes sont
-    produits plus tot dans le meme run, sur le texte complet encore en memoire,
-    et ne perdent rien. Ce qui est conserve sur disque — donc publie avec le
-    depot — redevient un extrait court au lieu d'une reproduction.
+    Premiere version, fausse : la troncature avait lieu a l'ecriture, et je
+    croyais que les resumes etaient produits avant, sur le texte complet. Ils
+    ne le sont pas — la revue se compose a partir du corpus RELU sur disque.
+    Tronquer a l'ecriture appauvrissait donc les resumes de la semaine meme.
+
+    Version juste : le texte entier reste disponible le temps que la revue soit
+    produite, puis il est reduit a un extrait. Passe la fenetre, aucun resume
+    ne sera plus jamais fabrique a partir de lui : le conserver n'aurait plus
+    d'usage, seulement un inconvenient.
     """
-    t = item.get("body_text")
-    if isinstance(t, str) and len(t) > EXTRAIT_MAX:
-        item = dict(item)
-        item["body_text"] = t[:EXTRAIT_MAX].rstrip() + "\u2026"
-        item["body_tronque"] = True
-    return item
+    import datetime
+    if not CORPUS.exists():
+        return 0, 0
+    limite_date = (datetime.date.today()
+                   - datetime.timedelta(days=jours)).isoformat()
+    lignes, touches, gagnes = [], 0, 0
+    for l in CORPUS.read_text(encoding="utf-8").splitlines():
+        l = l.strip()
+        if not l:
+            continue
+        r = json.loads(l)
+        t = r.get("body_text")
+        date = str(r.get("versioncreated") or r.get("collected") or "")[:10]
+        if (isinstance(t, str) and len(t) > limite
+                and date and date < limite_date):
+            gagnes += len(t) - limite
+            r["body_text"] = t[:limite].rstrip() + "\u2026"
+            r["body_tronque"] = True
+            touches += 1
+            l = json.dumps(r, ensure_ascii=False)
+        lignes.append(l)
+    if touches:
+        CORPUS.write_text("\n".join(lignes) + "\n", encoding="utf-8")
+    return touches, gagnes
 
 
 def append_items(items):
-    """Ajoute uniquement les items inconnus. Retourne ceux reellement ecrits.
-
-    Retourne les items COMPLETS : l'extrait ne concerne que le disque.
-    """
+    """Ajoute uniquement les items inconnus. Retourne ceux reellement ecrits."""
     seen = known_keys()
     fresh = [it for it in items if it["uri"] not in seen]
     if fresh:
         with open(CORPUS, "a", encoding="utf-8") as f:
             for it in fresh:
-                f.write(json.dumps(_pour_disque(it), ensure_ascii=False) + "\n")
+                f.write(json.dumps(it, ensure_ascii=False) + "\n")
     return fresh
 
 
