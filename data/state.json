@@ -1,5 +1,8 @@
 {
-  "gnews_urls": {},
+  "gnews_urls": {
+    "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMDVTTzZqTDlRS1dBbjN0d0pHdFVBcEE4dkhVWmR1R1FZTzl4NWhkcGI4alNMMTh3TmM5cVc3LUpTOGYzNE5XTVdjOU1vNjM5bDhvMy12MG1yRWlqMUpMRXNMSkxyVEEwUnJDdjNFblRUSmxsSkNKaHhaZkpTZXhiT1lTbFdMMmpNZzNraVVtNldoYVNiZHlSaGQ3U3VUUDNRd2U5cUl6N24yUzdpYXRXZ3dBLWcxeFRNMjM1WGE4clpCTFFpRFlBRUZ2SGVGWU9VTGotVkFHWTctbVc1ZUNVM2ZrYl9yT1B1b3hoaE1B?oc=5": "https://support.google.com/websearch/answer/86640",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYlAtVWM1OTJpWktLRm1xS2g3alRTc0d6Zy02Sms2bm4xZ2hJLVBxZjlmdWtXcDBKV0hrOWtBU0RjODR3bkRrcExnWVVvTUxQRjN1Rng5VVh5MTRpUkRFeDlORVRGM2Voa3JsRDJET1hEUzVzajJHVXZiSUUxTmc1LVQ3SzNRNWl3UUYtTlZ3djRRVUxSZjhLNW00dEkwQ2ctaExPaVdfSDBZbU0?oc=5": "https://support.google.com/websearch/answer/86640"
+  },
   "digested": [
     "article:04198864ed112806",
     "article:0675dc72d79732ea",
